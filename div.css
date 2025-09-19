@@ -1,0 +1,25 @@
+.mainDiv{
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+    display: flex; 
+    
+}
+.left{
+    background-color: red;
+    width: 50%;
+
+
+}
+.right{
+    background-color: yellow;
+    width: 50%;
+}
+.leftTop{
+    height: 50%;
+    background-color: gray;
+}
+.leftBottom{
+    background-color: aqua;
+    height: 50%;
+}
