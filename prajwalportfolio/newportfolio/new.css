@@ -1,0 +1,179 @@
+body{
+    background: linear-gradient(45deg, black, transparent);
+}
+header{
+    background-color: rgb(220, 234, 155);
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+}
+
+.a{
+    display: flex;
+    display: flex;
+    margin-left: 93px;
+    gap: 175px
+}
+.a h1{
+    color: #ff1e1e;
+    text-shadow: 3px 1px 1px rgb(0 0 0);
+    font-size: 44px;
+}
+.nav{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+     text-align: right;
+}
+li{
+    padding: 27px;
+    margin-left: 26px;
+}
+.nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+.nav li a:hover{
+        color: rgb(30, 38, 89);
+        text-decoration: underline;
+}
+.About{
+    display: flex;
+    background-color: rgb(20, 36, 51);
+    box-shadow: 3px 3p 2px rgb(0, 0, 0);
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 100px;
+    margin-top: 10px;
+}
+.About:hover{
+    box-shadow: 6px 6p 2px rgb(255, 249, 249);
+    border-radius: 15px;
+    background-color: rgb(15, 15, 44);
+    
+}
+.About1{
+    color: aliceblue;
+    margin-left: 10px;
+}
+.About p{
+    font-size: 21px;
+}
+.About2 img{
+    border-radius: 162px;
+    margin-right: 34px;
+    box-shadow:2px 2px 2px #474444;
+}
+.About2 img:hover{
+    box-shadow: 3px 3px 3px white ;
+}
+.projects{
+    display: flex;
+    background-color: rgb(20, 36, 51);
+    box-shadow: 3px 3p 2px rgb(0, 0, 0);
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 100px;
+    margin-top: 10px;
+}
+.projects:hover{
+    box-shadow: 6px 6p 2px rgb(255, 249, 249);
+    border-radius: 15px;
+    background-color: rgb(15, 15, 44);
+    
+}
+.project1{
+    color: aliceblue;
+    margin-left: 10px;
+}
+.projects p{
+    font-size: 21px;
+}
+.project2 img{
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+    box-shadow:2px 2px 2px #474444;
+}
+.project2 img:hover{
+    box-shadow: 3px 3px 3px white ;
+}
+.certification{
+    display: flex;
+    background-color: rgb(20, 36, 51);
+    box-shadow: 3px 3p 2px rgb(0, 0, 0);
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 100px;
+    margin-top: 10px;
+}
+.certification:hover{
+    box-shadow: 6px 6p 2px rgb(255, 249, 249);
+    border-radius: 15px;
+    background-color: rgb(15, 15, 44);
+    
+}
+.certification1{
+    color: aliceblue;
+    margin-left: 10px;
+    text-align: center;
+}
+.certification1 img{
+    height: 50%;
+    width: 50%;
+    margin-left: 10px;
+    border-radius: 37px;
+    border: 4px double rgb(255, 255, 255);
+}
+.certification1 img:hover{
+    box-shadow: 3px 3px 2px white;
+    
+}
+.certification p{
+    font-size: 21px;
+}
+.certification2{
+    text-align: center;
+}
+.certification2 h1{
+    color: white;
+}
+.certification2 img{
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+    box-shadow:2px 2px 2px #474444;
+    height: 50%;
+    width: 50%;
+    border: 4px double rgb(255, 255, 255);
+    
+}
+.certification2 img:hover{
+    box-shadow: 3px 3px 3px white ;
+}
+footer{
+    background-color: rgb(220, 234, 155);
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+    text-align: center;
+}
+ footer h2{
+    color: #ff1e1e;
+    text-shadow: 3px 1px 1px rgb(0 0 0);
+    font-size: 44px;
+  
+
+}
+footer a{
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
