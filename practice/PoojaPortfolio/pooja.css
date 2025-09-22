@@ -39,4 +39,11 @@
   margin: auto;
   font-size: 20px;
 }
+.subheading li a{
+    margin-left: 150px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
 
