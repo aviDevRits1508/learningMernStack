@@ -1,8 +1,10 @@
 .container{
-  background-color: antiquewhite;
+  background-color: burlywood;
   height: 70px;
   width: 400px;
   border-bottom: 20px;
+  margin-left: 500px;
+  text-align: center;
 }
 .container h1{
   color: aquamarine;
@@ -12,24 +14,28 @@
   color: chartreuse;
 }
 .second{
-  background-color: aquamarine;
+  background-color: burlywood;
   height: 150px;
   width: 400px;
   margin-bottom: 20px;
+  margin-left: 500px;
+  text-align: center;
 
 }
 .second h2{
   color: blueviolet;
 }
 .second p{
-  color:violet;
+  color:cadetblue;
 
 }
 .third{
   background-color: burlywood;
   height: 200px;
-  width: 200px;
+  width: 400px;
   margin-bottom: 20px;
+  margin-left: 500px;
+  text-align: center;
 }
 .third ol h2{
   color: dodgerblue;
@@ -38,10 +44,12 @@
   color: coral;
 }
 .fourth{
-  background-color: aliceblue;
+  background-color: burlywood;
   height: 150px;
   width: 400px;
   margin-bottom: 20px;
+  margin-left: 500px;
+  text-align: center;
 }
 .fourth h2{
   color: brown;
@@ -54,10 +62,12 @@
 
 }
 .fifth{
-  background-color: darkgray;
+  background-color: burlywood;
   height:150px ;
   width: 400px;
   margin-bottom: 20px;
+  margin-left: 500px;
+  text-align: center;
 
 }
 .fifth h3{
@@ -68,10 +78,12 @@
   color: fuchsia;
 }
 .sixth{
-  background-color: antiquewhite;
+  background-color: burlywood;
   height: 150px;
   width: 400px;
   margin-bottom: 20px;
+  margin-left: 500px;
+  text-align: center;
 }
 .sixth h3{
   color: cornflowerblue;
@@ -81,10 +93,12 @@
   color: chocolate;
 }
 .seventh{
-  background-color: aliceblue;
+  background-color:burlywood;
   height: 150px;
   width: 400px;
   margin-bottom: 20px;
+  margin-left: 500px;
+  text-align: center;
 }
 .seventh h2{
   color: cornflowerblue;
@@ -96,4 +110,5 @@
 .seventh h4{
   color: chocolate;
 }
+
 
