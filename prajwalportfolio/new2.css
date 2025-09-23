@@ -1,0 +1,62 @@
+body{
+    background-image: url("download\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+header{
+    display: flex;
+}
+header h1{
+    color: gold;
+    font-family: cursive;
+}
+ul{
+    display: flex;
+    list-style: none;    
+    gap: 41px;
+    padding: 15px;
+    margin-left: 208%
+
+}
+ul li a{
+    text-decoration: none;
+    text-align: right;
+    color: white;
+    font-size: 20px;
+}
+ul li a:hover{
+    color: gold;
+    text-decoration: underline;
+}
+.search-button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.search-button:hover{
+    color: #ff9800;
+}
+section{
+    text-align: center;
+    margin-top: 250px;
+}
+section h1{
+    color: white;
+
+}
+section a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    font-size: 22px;
+    padding: 12px;
+    border-radius: 14px
+}
+section a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    background-color: black;
+}
