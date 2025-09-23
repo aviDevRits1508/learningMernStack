@@ -6,7 +6,7 @@ body {
     }
     header {
       background: #21b691;
-      color: rgb(206, 196, 196);
+      color: white;
       text-align: center;
       padding: 2rem 1rem;
     }
@@ -40,7 +40,7 @@ body {
       padding: 1rem;
       background: white;
       border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 8px black;
     }
     section h2 {
       color: #2fad9d;
@@ -51,5 +51,5 @@ body {
       padding: 1.5rem;
       margin-top: 2rem;
       background: #179fa3;
-      color: rgb(14, 13, 13);
+      color: black;
     }
