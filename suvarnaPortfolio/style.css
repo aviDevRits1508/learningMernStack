@@ -1,0 +1,79 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/background.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    color: black;
+    font-size: bold;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+/* Menu */
+.menu ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+  padding: 10px 10px;
+  position: relative;
+}
+.menu ul li a:hover {
+  color: #ffd700; /* golden hover */
+}
+
+/* seach buton*/
+
+.search-btn{
+    cursor: pointer;
+}
+.search-btn i{
+ font-size: 2rem;
+  margin-left: 50px;  
+  top: 0; 
+  right: 0;
+  position: absolute;
+}
+
+.logo{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: white;
+    margin-left: 0;
+}
+.menu ul li{
+text-decoration: none;
+display: flex;
+}
+/* hero section */
+.hero{
+max-width: 700px;
+position: absolute;
+top: 50%;
+left: 50%;
+color: black;
+transform: translate(-50%,-50%); /* center exactly */
+text-align: center;
+}
+.hero a{
+    text-decoration: none;
+    background-color: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 4px solid white;
+}
