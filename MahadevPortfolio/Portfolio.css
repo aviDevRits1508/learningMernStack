@@ -1,0 +1,403 @@
+/* body{
+    background-color: black;
+} */
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+    border: 1px solid black;
+    background: linear-gradient(#8A32A8, #1B192C);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    
+}
+
+header h1{
+    font-size: 40px;
+    color: #ffffff;
+}
+
+nav{
+    margin-right: 20px;
+    font-size: 27px;
+    margin-top: 30px;
+}
+
+nav a{
+    margin-left: 40px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.image{
+    text-align: center;
+    margin-top: 160px;
+    
+}
+
+.image img{
+    width: 200px;
+    border-radius: 100%;
+    height: 200px;
+    border: 10px solid #1B192C;
+    box-shadow: 2px 4px 6px 8px #8A32A8;
+}
+
+.hero{
+    text-align: center;
+}
+
+.hero h2{
+    font-size: 30px;
+}
+
+.hero h1{
+    font-size: 40px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 370px;
+    margin-left: 39%;
+    border-radius: 20px;
+    background: linear-gradient(#8A32A8, #1B192C);
+    color: whitesmoke;
+}
+
+.hero h3{
+    font-size: 60px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.hero p{
+    font-size: 30px;
+    border: 1px solid whitesmoke;
+    padding: 20px;
+    width: 650px;
+    margin-left: 30%;
+    border-radius: 20px;
+    box-shadow: 2px 4px 6px 4px purple
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 50px;
+    margin-top: 75px;
+}
+
+.div1 button{
+    font-size: 35px;
+    padding: 15px 30px;
+    border-radius: 15px;
+    color: white;
+    background: linear-gradient(#8A32A8, #1B192C);
+}
+
+.div1 button:hover{
+    box-shadow: 2px 4px 6px 4px #1B192C;
+}
+
+.div2 button{
+    font-size: 35px;
+    padding: 15px 30px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+.div2 button:hover{
+    box-shadow: 2px 4px 6px 4px #1B192C;
+}
+
+/* About us */
+.top {
+    text-align: center;
+    margin-top: 145px;
+}
+
+.top h1{
+    font-size: 80px;
+}
+
+.top h1 span{
+    color: #8A32A8;
+}
+
+.top h3{
+    font-size: 26px;
+    color: gray;
+    margin-top: -45px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    padding: 10px 250px;
+}
+
+.div3{
+    margin-top: 60px;
+}
+
+.div4{
+    margin-top: 60px;
+}
+
+.same{
+    border: 1px solid whitesmoke;
+    width: 220px;
+    padding: 6px 35px;
+    text-align: center;
+    margin-top: 35px;
+    border-radius: 30px;
+    box-shadow: 2px 4px 6px 4px #1B192C
+}
+
+.div1 h3{
+    font-size: 30px;
+}
+
+.div1 p{
+    font-size: 18px;
+    margin-top: -15px;
+}
+
+.same h3{
+    color: gray;
+}
+
+/* Skills */
+.skills {
+    text-align: center;
+    margin-top: 145px;
+}
+
+.skills h1{
+    font-size: 80px;
+}
+
+.skills h1 span{
+    color: #8A32A8;
+}
+
+.skills h3{
+    font-size: 26px;
+    color: gray;
+    margin-top: -45px;
+}
+
+.skill{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 400px;
+}
+
+.sec1{
+    border: 1px solid whitesmoke;
+    padding: 0px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 6px  #8A32A8;
+
+}
+
+.sec2{
+    border: 1px solid whitesmoke;
+    padding: 0px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 6px  #8A32A8;
+
+}
+
+/* Services */
+.Services{
+    text-align: center;
+    margin-top: 145px;
+}
+
+.Services h1{
+    font-size: 80px;
+}
+
+.Services h1 span{
+    color: #8A32A8;
+}
+
+.Services h3{
+    font-size: 26px;
+    color: gray;
+    margin-top: -45px;
+}
+
+.Serve{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 225px;
+}
+
+
+
+
+.div5{
+    border: 1px solid whitesmoke;
+    width: 392px;
+    border-radius: 15px;
+    padding: 5px 60px;
+    box-shadow: 2px 4px 6px  #8A32A8;
+    margin-top: 75px;
+}
+
+.div5 h4{
+    color: gray;
+}
+
+.div6{
+    border: 1px solid whitesmoke;
+    width: 430px;
+    border-radius: 15px;
+    padding: 5px 60px;
+    box-shadow: 2px 4px 6px  #8A32A8;
+    margin-top: 75px;
+}
+
+.div6 h4{
+    color: gray;
+}
+
+/* Contact */
+.Con{
+    text-align: center;
+    margin-top: 145px;
+}
+
+.Con h1{
+    font-size: 80px;
+}
+
+.Con h1 span{
+    color: #8A32A8;
+}
+
+.Con h3{
+    font-size: 26px;
+    color: gray;
+    margin-top: -45px;
+}
+
+
+.div7 h1{
+    font-size: 40px;
+}
+
+.div7 h4{
+    font-size: 20px;
+    color: gray;
+}
+
+.div8{
+    border: 1px solid whitesmoke;
+    width: 400px;
+    margin-top: 40px;
+    box-shadow: 2px 4px 6px  #8A32A8;
+    border-radius: 15px;
+    padding: 10px 40px;
+}
+
+.div8 h3 span{
+    color: #8A32A8;
+}
+
+.Connect{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 300px;
+}
+
+.Connect .div8 h3{
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.Connect .div8 h2{
+    margin-top: 10px;
+}
+
+.form {
+    border: 1px solid whitesmoke;
+    width: 400px;
+    margin-top: 40px;
+    box-shadow: 2px 4px 6px  #8A32A8;
+    border-radius: 15px;
+    padding: 0px 40px;
+}
+
+.form h3{
+    font-size: 30px;
+}
+
+.form h4{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.form button{
+    margin-top: 60px;
+    font-size: 20px;
+    margin-left: 8%;
+    padding: 18px 100px;
+    border-radius: 10px;
+    background: linear-gradient(#8A32A8, #1B192C);
+    color: whitesmoke;
+}
+
+.form input{
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 100%;
+}
+
+footer{
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 60px;
+    background: linear-gradient(#8A32A8, #1B192C);
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+footer h3{
+    font-size: 21px;
+    color: rgb(228, 193, 193);
+}
+
+footer h4{
+    font-size: 21px;
+    color: black;
+}
+
+.div9{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 215px;
+}
+
+.div9 i{
+    color: darkred;
+}
+
+
+    
+
