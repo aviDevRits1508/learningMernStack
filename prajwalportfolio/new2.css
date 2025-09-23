@@ -10,19 +10,21 @@ header{
 }
 header h1{
     color: gold;
+    font-family: cursive;
 }
 ul{
     display: flex;
     list-style: none;    
     gap: 41px;
     padding: 15px;
-    margin-left: 236%
+    margin-left: 208%
 
 }
 ul li a{
     text-decoration: none;
     text-align: right;
     color: white;
+    font-size: 20px;
 }
 ul li a:hover{
     color: gold;
@@ -50,8 +52,11 @@ section a{
     color: white;
     border: 2px solid white;
     font-size: 22px;
+    padding: 12px;
+    border-radius: 14px
 }
 section a:hover{
-    color: rgb(255, 180, 4);
+    color: rgb(255, 255, 255);
     text-decoration: underline;
+    background-color: black;
 }
