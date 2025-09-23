@@ -81,21 +81,34 @@
       padding: 10px 20px;
       background: #f5b400;
       border: none;
-      border-radius: 6px;
+      border-radius: 30px;
       color: #000;
       cursor: pointer;
       font-weight: 600;
+    }
+
+    .btn-primary:hover{
+       box-shadow: #f5b400 2px 4px 8px;
+      border-radius: 30px;
+      transform: translateY(-5px);
     }
 
     .btn-outline {
       padding: 10px 20px;
       background: transparent;
       border: 1px solid #fff;
-      border-radius: 6px;
+      border-radius: 30px;
       color: #fff;
       cursor: pointer;
       font-weight: 600;
     }
+
+    .btn-outline:hover{
+       box-shadow: #f5b400 2px 4px 8px;
+      border-radius: 30px;
+      transform: translateY(-5px);
+    }
+
 
     .social-icons {
       display: flex;
@@ -111,6 +124,9 @@
 
     .social-icons a:hover {
       color: #f5b400;
+      box-shadow: #f5b400 2px 4px 8px;
+      border-radius: 30px;
+      transform: translateY(-5px);
     }
 
     /* Circle Design */
