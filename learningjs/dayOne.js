@@ -8,5 +8,5 @@ console.log(name2);
 name = "mahesh";
 name2 = "randomName"
 
-console.log(name);
-console.log(name2);
+// console.log(name);
+// console.log(name2);
