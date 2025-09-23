@@ -1,5 +1,5 @@
 body{
-    background-image: url("download\ \(1\).jpg");
+    background-image: url("098c68ef387f3f3950f5b40183468656.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -9,7 +9,7 @@ header{
     display: flex;
 }
 header h1{
-    color: gold;
+    color: rgb(255, 255, 255);
     font-family: cursive;
 }
 ul{
@@ -23,7 +23,7 @@ ul{
 ul li a{
     text-decoration: none;
     text-align: right;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 20px;
 }
 ul li a:hover{
@@ -44,7 +44,7 @@ section{
     margin-top: 250px;
 }
 section h1{
-    color: white;
+    color: rgb(255, 255, 255);
 
 }
 section a{
