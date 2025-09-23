@@ -1,0 +1,79 @@
+body{
+    background-color: #0a192f;
+}
+header{
+    display: flex;
+}
+header h1{
+    color: gold;
+}
+ul{
+    display: flex;
+    list-style: none;    
+    gap: 41px;
+    padding: 15px;
+    margin-left: 236%
+
+}
+ul li a{
+    text-decoration: none;
+    text-align: right;
+    color: white;
+}
+#Home{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.Home1 h6{
+    color: gold;
+    font-size: 17px;
+}
+.Home1 p{
+    color: #4a4b4d;
+}
+.button1{
+    background-color: gold;
+    border-radius: 5px;
+}
+.button2{
+    background-color: #0a192f;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.i1{
+    color: gold;
+
+}
+.Home2{
+    color: gold;
+    border: 5px solid gold;
+    border-radius: 100%;
+    padding: 70px;
+    margin-top: 83px;
+    margin-left: 53%;
+    position: relative;
+    color: #fbbf24;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.dot{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(60, 57, 43);
+    border: 3px solid rgb(60, 57, 43);
+    border-radius: 50%;
+    position: absolute;
+}
+.dot1{
+    top: -20px;
+    right: -20px;
+}
+.dot2{
+    bottom: -20px;
+    left: -20px;
+}
+
+

@@ -1,0 +1,26 @@
+.modern{
+    background: url(Image-1.jpg);
+    background-size: cover;
+    height: 800px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modern h1{
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+.icon i{
+    font-size: 30px;
+    margin-left: 100px;
+
+}
+
