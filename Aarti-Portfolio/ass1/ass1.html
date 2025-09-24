@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <main>
+        <div class="main">
+            <nav class="navbar">
+                <div class="div1">ORIGINALSSS</div>
+                <ul class="navlinks">
+                    <li>Women</li>
+                    <li>Men</li>
+                    <li>Cart</li>
+                    <li>Home</li>
+                    <li>Login</li>
+                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="div2">
+            <h1>THE NEW ARRIVALS</h1>
+            <h2>Sign Up For Newsteller</h2>
+        </div>
+    </main>
+</body>
+</html>
+<style>
+   .main {
+  width: 100%;
+  height: 100vh;
+  background-image: url('shop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;       
+  background-position: center; 
+  animation: zoomout 3s ease-out;
+}
+@keyframes zoomout {
+  0% {
+    background-size: 100%;
+  }
+  100% {
+    background-size: 110%;
+  }
+}
+
+    .navbar{
+        display: flex;
+       background-color: transparent;
+       color: aliceblue;
+   
+    }
+    .div1{
+        margin-top: 20px;
+        margin-left: 70px;
+        font-size: 3.4rem;
+        font-style: normal;
+    }
+    .navlinks {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 570px;
+         margin-top: 25px;
+       gap: 30px;
+       margin-right: 40px;
+    }
+    .navlinks li{
+         justify-content: space-evenly;
+       font-size: 1.5rem;
+        list-style: none;
+    }
+    .navlinks li:hover{
+        color: rgb(18, 18, 17);
+    }
+    .div2{
+        text-align: center;
+        margin-top: -500px;
+    }
+    .div2 h1{
+        font-size: 3.5rem;
+       width: 800px;
+       margin-left: 350px;
+       color: antiquewhite;
+    }
+    .div2 h1:hover{
+       font-style: italic;
+        color: antiquewhite;
+        box-shadow: 3px 5px 8px white;
+    }
+    .div2 h2{
+        
+        margin-left: 550px;
+        width: 350px;
+        border: 2px solid white;
+        border-radius: 7px;
+        padding: 5px 10px;
+    }
+    .div2 h2:hover{
+        box-shadow: 5px 10px 15px rgb(137, 126, 126);
+    }
+</style>

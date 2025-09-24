@@ -1,0 +1,110 @@
+.modern{
+    background: url(Image-1.jpg);
+    background-size: cover;
+    height: 800px;
+    max-width: 100%;
+    
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: 50px;
+    color: whitesmoke;
+}
+
+nav{
+    margin-left: 620px;
+    margin-top: 20px;
+}
+
+nav a:hover{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 2px 4px 6px 4px black;
+}
+
+.icon{
+    margin-right: 60px;
+    margin-top: 28px;
+    color: whitesmoke;
+    font-size: 35px;
+}
+
+.icon:hover{
+    color: black;
+    text-shadow: 2px 4px 6px whitesmoke;
+}
+
+.name h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+.name:hover {
+    text-shadow: 2px 4px 6px black;
+}
+
+.name h1:hover{
+    color: darkred;
+}
+
+.name h1 span{
+    color: darkred;
+}
+
+.name h1 span:hover{
+    color: white;
+}
+
+.tag h1{
+    margin-left: 30%;
+    font-size: 60px;
+    color: white;
+    border: 1px solid white;
+    width: 36%;
+    border-radius: 20px;
+    padding: 10px 50px;
+    box-shadow: 2px 4px 6px black;
+}
+
+.tag span{
+    color: darkred;
+}
+
+button{
+    font-size: 30px;
+    padding: 10px 60px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid wheat;
+    color: white;
+    margin-left: 37%;
+}
+
+button:hover{
+    background: linear-gradient(#D50505, #382323);
+    border: 1px solid black;
+}
+
+.shadow{
+    border: 1px solid black;
+    width: 100%;
+    background-color: #07070791;
+    padding: 40px 0px;
+    margin-top: 325px;
+}
+
+
+
+
+
+    
+
