@@ -18,7 +18,7 @@ function operater (a,b){
     console.log(module)
 }
 
-operater (5,9)
+operater (8,10)
 
 // this is my name 
 
