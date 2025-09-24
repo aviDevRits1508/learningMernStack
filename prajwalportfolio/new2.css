@@ -60,3 +60,6 @@ section a:hover{
     text-decoration: underline;
     background-color: black;
 }
+.i1{
+    display: flex;
+}
