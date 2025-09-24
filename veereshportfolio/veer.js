@@ -31,7 +31,7 @@ function grosoryprice(pen, pencil, carcol, colors, brush){
 grosoryprice(10,300,100,450,470)
 
 
-// formuls of shapes
+// formul of shapes
 // area of rectangle
 
 function area(l,w){
