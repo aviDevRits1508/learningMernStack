@@ -1,90 +1,79 @@
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Helvetica Neue', sans-serif;
-  background-color: #e6732c; /* Orange background */
-  color: white;
+body, html {
+  font-family: 'Arial', sans-serif;
+  height: 100%;
 }
 
-header {
+/* Navbar */
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 60px;
-  background-color: transparent;
-  position: absolute;
-  width: 100%;
   z-index: 10;
 }
 
 .logo {
   font-size: 24px;
   font-weight: bold;
+  color: white;
 }
 
-nav a {
-  margin-left: 25px;
+.nav-links a {
   color: white;
   text-decoration: none;
+  margin-left: 25px;
+  font-weight: 500;
   font-size: 16px;
 }
 
+.search-icon {
+  font-size: 18px;
+}
+
+/* Hero Section */
 .hero {
+  background: url('images2/mode1.jfif') center center/cover no-repeat;
   height: 100vh;
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-bottom: 60px;
-  overflow: hidden;
 }
 
-.image {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  gap: 20px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding: 0 60px;
-}
-
-.image img {
-  height: 80vh;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
+/* Overlay */
 .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  margin-bottom: 120px;
-  z-index: 5;
-  position: relative;
+  color: white;
 }
 
-.overlay h1 {
+.headline {
   font-size: 48px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.overlay button {
-  padding: 12px 24px;
-  background-color: transparent;
-  border: 2px solid white;
-  color: white;
+.newsletter-btn {
+  padding: 12px 25px;
   font-size: 16px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
   cursor: pointer;
-  border-radius: 4px;
   transition: background 0.3s;
 }
 
-.overlay button:hover {
+.newsletter-btn:hover {
   background-color: white;
-  color: #e6732c;
+  color: black;
 }
