@@ -81,4 +81,5 @@ function totalMarks(math, science, english, history, marathi){
     return math + science + english + history + marathi;
 }
 
-console.log("Total Marks:", totalMarks(88,85,72,75,85));
+console.log("Total Marks of stud1:", totalMarks(88,85,72,75,85));
+console.log("total marks stud2:", totalMarks(90,88,80,75,70));
