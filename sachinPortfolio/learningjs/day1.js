@@ -55,8 +55,7 @@ console.log(typeof fourth);
 
 
              // string concatination
- console.log('sachin'+13+12);
- console.log(12+10+'sachin');  
+ 
  let firstname = 'sachin';
  let surname = 'solapure';
  let village = 'siddeshwar';
