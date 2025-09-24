@@ -1,8 +1,13 @@
 console.log("Hi sachin");
-let name ="sachin";
+
+
+  // declaring the variable
+  let name ="sachin";  
 console.log(name);
 name = "solapure";
 console.log(name);
+
+
 const pin = "45";
 console.log(pin);
 
@@ -29,6 +34,11 @@ lm2 = "solapure";
 console.log(lm2);
 var lm2 = "siddeshwar";
 console.log(lm2);
+
+
+
+
+// checking the type of variable value
 let first = "sachin";
 let second = 24;
 let third = 10772347567n;
@@ -41,15 +51,19 @@ console.log(typeof third);
 console.log(typeof fourth);
  let sb = true;
  console.log(typeof sb);
+
+
+
+             // string concatination
  console.log('sachin'+13+12);
- console.log(12+10+'sachin');
- let n = 2;
- let k = 3;
- console.log(2**3);
+ console.log(12+10+'sachin');  
  let firstname = 'sachin';
  let surname = 'solapure';
  let village = 'siddeshwar';
 console.log(firstname+surname+village);
+
+
+        // used comparision operators
 let low = 10;
 let high = 'sa';
 console.log(low == high);
@@ -62,17 +76,6 @@ let mn = 11;
 console.log(kl != mn);
 console.log(kl < mn);
 console.log(kl >= mn);
-let a = 10;
-let b = 20;
-console.log("addition is", a+b);
-console.log("substraction is", a-b);
-console.log("multiplication is",a*b);
-console.log("devition is", a/b);
-console.log("modulus is", a%b);
-console.log(a++);
-console.log(a--);
-
-
 
 
 
@@ -119,6 +122,28 @@ function totalmarks(python,java,c,database,ml,iot){
 
   }
   rectangle(100,200);
+
+  // working on operators using function
+  function operators(a,b){
+    let add = a+b;
+    let sub = a-b;
+    let mul = a*b;
+    let dev = a/b;
+    let mod = a%b;
+    let inc = a--;
+    let dec = a++;
+    let dec2 = ++b;
+    console.log(add);
+    console.log(sub);
+    console.log(mul);
+    console.log(dev);
+    console.log(mod);
+    console.log(inc);
+    console.log(dec);
+    console.log(dec2);
+  }
+  operators(5,6);
+
 
     
     
