@@ -31,15 +31,15 @@
 </html>
 <style>
    .main {
-  width: 100%;
+  width: max-content;
   height: 100vh;
   background-image: url('shop.jpg');
   background-repeat: no-repeat;
   background-size: cover;       
   background-position: center; 
-  animation: zoomout 3s ease-out;
+  animation: zoomin 3s ease-out;
 }
-@keyframes zoomout {
+@keyframes zoomin {
   0% {
     background-size: 100%;
   }
@@ -62,7 +62,7 @@
     }
     .navlinks {
         display: flex;
-        justify-content: space-evenly;
+        justify-content:space-between;
         margin-left: 570px;
          margin-top: 25px;
        gap: 30px;
