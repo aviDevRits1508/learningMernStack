@@ -69,6 +69,8 @@ console.log("substraction is", a-b);
 console.log("multiplication is",a*b);
 console.log("devition is", a/b);
 console.log("modulus is", a%b);
+console.log(a++);
+console.log(a--);
 
 
 
