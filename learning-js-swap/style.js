@@ -32,10 +32,11 @@ let float=23.5; //float
 let bigint = 5n; //bigint
 let symbol = Symbol("id"); //symbol
 
-console.log(typeof age)
-console.log(typeof fname)
-console.log (typeof isApproved)
-console.log(typeof lastname)
-console.log(typeof selectedColor)
-console.log(typeof float)
-console.log(typeof bigint)
+console.log(age);
+console.log(fname);
+console.log(isApproved);    
+console.log(lastname);
+console.log(selectedColor);
+console.log(float);
+console.log(bigint);
+console.log(symbol);
