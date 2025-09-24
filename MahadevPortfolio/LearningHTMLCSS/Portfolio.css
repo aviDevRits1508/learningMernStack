@@ -28,6 +28,9 @@ nav{
     margin-top: 30px;
 }
 
+nav a:hover {text-decoration: underline;}
+
+
 nav a{
     margin-left: 40px;
     color: #ffffff;
