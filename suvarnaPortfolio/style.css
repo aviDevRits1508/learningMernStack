@@ -27,7 +27,7 @@ header{
 .menu ul li a {
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 19px;
   transition: 0.3s;
   padding: 10px 10px;
   position: relative;
@@ -42,7 +42,7 @@ header{
     cursor: pointer;
 }
 .search-btn i{
- font-size: 2rem;
+ font-size: 1.8rem;
   margin-left: 50px;  
   top: 0; 
   right: 0;
@@ -50,8 +50,8 @@ header{
 }
 
 .logo{
-    font-size: 2rem;
-    letter-spacing: 2px;
+    font-size: 3rem;
+    letter-spacing: 1px;
     color: white;
     margin-left: 0;
 }
@@ -76,4 +76,5 @@ text-align: center;
     padding: 10px 20px;
     border-radius: 10px;
     border: 3px solid white;
+    font-size: 1.5rem;
 }
