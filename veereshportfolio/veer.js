@@ -178,7 +178,7 @@ let asa=(as<=sa)
 
 console.log(asa)
 
-// condittional if statment
+// condittcional if statment
 
 let sick=false;
 if(sick){
@@ -190,4 +190,4 @@ if(sick){
     }
 
 
-    
+
