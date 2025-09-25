@@ -53,3 +53,7 @@ function mul(a,b){
  //call function
    studentMarks("Rahul",95,85,98,88,95,90);
  
+
+
+
+
