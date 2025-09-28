@@ -1,0 +1,60 @@
+h1{
+    color: bisque;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-left: 20px; */
+    /* margin-top: 40px; */
+    /* margin: 20px 30px 40px 50px; */
+    /* padding-left: 40px; */
+    /* padding: 40px; */
+
+}
+
+p{
+    color: beige;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+
+div{
+    background-color: black;
+    height: 150px;
+    width: 200px;
+    border: 4px dashed red;
+    border-radius: 10px;
+    /* border: 5px dotted green; */
+}
+
+.praful{
+      background-color: rgb(190, 36, 36);
+    height: 150px;
+    width: 200px;
+    border: 4px dashed red;
+    border-radius: 10px;
+    margin-top: 20px;
+} 
+
+
+.praful p{
+    color: yellow;
+}
+
+.laptop p{
+    color: rgb(216, 161, 77);
+}
+.laptop h1{
+    color: blue;
+}
+.praful h1{
+    color: cyan;
+}
+
+.dell{
+    width: 600px;
+    height: 400px;
+    background-color: chartreuse;
+    display: flex;
+    gap: 20px;
+    margin-top: 80px;
+}
