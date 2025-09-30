@@ -47,16 +47,6 @@ let q = 'two';
 // }
 
 
-function isSick(a){
-    if(a){
-        console.log("not able to work")
-    }else{
-        console.log("able to work")
-    }
-}
-
-let anything = false;
-console.log(isSick(anything))
 
 let a = 50
 let b = 60

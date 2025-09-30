@@ -129,4 +129,68 @@ function div(x ,y){
 }
 div( 10 ,2)
 
+// s-------------------------------------------------------------------------------------------------------
+// -------------------------------------------------------------------------------------------------------
+    // comparison
+
+    let x=20;
+    let y=30;
+    let z=(x==y)
+
+    console.log(z)
+
+// not equal
+
+let a=30;
+let s=40;
+let q=(a!=s)
+
+console.log(q)
+
+//comparsion with tripal equal  "==="
+
+let d=40;
+let i='40';
+let j=(d===i)
+
+console.log(j)    
+
+
+let c=59;
+let l=59;
+let trip=(c===l)
+
+console.log(trip)
+
+
+// compare with less and grater
+
+let qw=60;
+let we=20;
+let qwe=(qw>we)
+
+console.log(qwe)
+
+
+let as=30;
+let sa=78;
+let asa=(as<=sa)
+
+console.log(asa)
+
+// conditcional if statment
+
+let sick=false;
+if(sick){
+    console.log("not able connect")
+}
+
+    else{
+        console.log("able to work")
+    }
+
+
+    // asa
+
+
 

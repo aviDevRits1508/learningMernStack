@@ -26,5 +26,5 @@ function compare(x,y){
     console.log(x-y)
 }
 }
-let compare1 = compare(4,7);
-console.log(compare(compare1)) 
+let compare1 = compare(4,8);
+console.log(compare(compare1))
