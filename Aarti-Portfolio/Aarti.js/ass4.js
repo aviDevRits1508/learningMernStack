@@ -125,4 +125,24 @@ square(8)
 function square(y){
     return y*y
 }
-console.log(square(7))
+console.log(square(6))
+
+function greetUser(username, hour) {
+    if (hour < 12) {
+        console.log("Good morning, " + username + "!");
+    } else if (hour >= 12 && hour <= 17) {
+        console.log("Good afternoon, " + username + "!");
+    } else if (hour >= 18 && hour <= 23) {
+        console.log("Good evening, " + username + "!");
+    } else {
+        console.log("Invalid hour. Please enter a value between 0 and 23.");
+    }
+}
+
+
+greetUser("Alice", 9); 
+greetUser("Bob", 15);   
+greetUser("Charlie", 20);
+greetUser("Dave", 25);    
+
+
