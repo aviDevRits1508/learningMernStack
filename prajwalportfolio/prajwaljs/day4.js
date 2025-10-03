@@ -128,3 +128,24 @@ function noteligible(age){
     return (age<18) ? "Can't Vote" : "Can VOte"
 }
 console.log(noteligible(age))
+
+
+// switch
+
+let z=2
+
+function even(z){
+    switch(z){
+        case(z%2==0):
+            console.log("even")
+            break;
+        case(z%2==1):
+            console.log("odd")
+            break;
+        default:
+            console.log("natural")   
+    }
+}
+even(z)
+
+
