@@ -1,0 +1,114 @@
+.container{
+  background-color: burlywood;
+  height: 70px;
+  width: 400px;
+  border-bottom: 20px;
+  margin-left: 500px;
+  text-align: center;
+}
+.container h1{
+  color: aquamarine;
+  font-size: 20px;
+}
+.container p{
+  color: chartreuse;
+}
+.second{
+  background-color: burlywood;
+  height: 150px;
+  width: 400px;
+  margin-bottom: 20px;
+  margin-left: 500px;
+  text-align: center;
+
+}
+.second h2{
+  color: blueviolet;
+}
+.second p{
+  color:cadetblue;
+
+}
+.third{
+  background-color: burlywood;
+  height: 200px;
+  width: 400px;
+  margin-bottom: 20px;
+  margin-left: 500px;
+  text-align: center;
+}
+.third ol h2{
+  color: dodgerblue;
+}
+.third ol li{
+  color: coral;
+}
+.fourth{
+  background-color: burlywood;
+  height: 150px;
+  width: 400px;
+  margin-bottom: 20px;
+  margin-left: 500px;
+  text-align: center;
+}
+.fourth h2{
+  color: brown;
+}
+.fourth h3{
+  color: cyan;
+}
+.fourth p{
+  color: greenyellow;
+
+}
+.fifth{
+  background-color: burlywood;
+  height:150px ;
+  width: 400px;
+  margin-bottom: 20px;
+  margin-left: 500px;
+  text-align: center;
+
+}
+.fifth h3{
+  color: olivedrab;
+
+}
+.fifth p{
+  color: fuchsia;
+}
+.sixth{
+  background-color: burlywood;
+  height: 150px;
+  width: 400px;
+  margin-bottom: 20px;
+  margin-left: 500px;
+  text-align: center;
+}
+.sixth h3{
+  color: cornflowerblue;
+
+}
+.sixth p{
+  color: chocolate;
+}
+.seventh{
+  background-color:burlywood;
+  height: 150px;
+  width: 400px;
+  margin-bottom: 20px;
+  margin-left: 500px;
+  text-align: center;
+}
+.seventh h2{
+  color: cornflowerblue;
+
+}
+.seventh p{
+  color: cornflowerblue;
+}
+.seventh h4{
+  color: chocolate;
+}
+
+

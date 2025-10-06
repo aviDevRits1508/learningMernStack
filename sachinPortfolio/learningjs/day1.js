@@ -1,0 +1,292 @@
+// console.log("Hi sachin");
+
+
+//   // declaring the variable
+//   let name ="sachin";  
+// console.log(name);
+// name = "solapure";
+// console.log(name);
+
+
+// const pin = "45";
+// console.log(pin);
+
+// var car = "bmw";
+// console.log(car);
+
+// let book="about home";
+// console.log(book);
+
+
+// book = "about school";
+// console.log(book);
+
+// let book1 = "about phone";
+// console.log(book1);
+
+// const book2 = "about laptop";
+// console.log(book2);
+// // book2 = "about pen";
+// // console.log(book2);
+// var lm2 = "sachin";
+// console.log(lm2);
+// lm2 = "solapure";
+// console.log(lm2);
+// var lm2 = "siddeshwar";
+// console.log(lm2);
+
+
+
+
+// // checking the type of variable value
+// let first = "sachin";
+// let second = 24;
+// let third = 10772347567n;
+// let fourth = 5.00;
+// let fifth = 3;
+// let sixth = 6;
+// console.log(typeof first);
+// console.log(typeof second);
+// console.log(typeof third);
+// console.log(typeof fourth);
+//  let sb = true;
+//  console.log(typeof sb);
+
+
+
+//              // string concatination
+ 
+//  let firstname = 'sachin';
+//  let surname = 'solapure';
+//  let village = 'siddeshwar';
+// console.log(firstname+surname+village);
+
+
+//         // used comparision operators
+// let low = 10;
+// let high = 'sa';
+// console.log(low == high);
+// console.log(low === high);
+// let m = 10;
+// m+=10;
+// console.log(m);
+// let kl = 10;
+// let mn = 11;
+// console.log(kl != mn);
+// console.log(kl < mn);
+// console.log(kl >= mn);
+
+
+
+//      // Calculating the total marks of student 
+// function totalmarks(python,java,c,database,ml,iot){
+//     let mn = python+java+c+database+ml+iot; 
+//     let kl = (mn*100)/600;
+    
+//     console.log("The total marks and percantage scored by sachin are" ,mn,kl);
+//     console.log("the marks and percantage scored by param",  mn,kl);
+// }
+//   totalmarks(70,30,80,50,60,60);
+
+//      //  for calculating the grocaries  
+
+//   function groceries(shampoo,soap,towels,chips){
+//     let sachin = shampoo+soap+towels+chips;
+//     console.log("This month total bill", sachin);
+//   }
+//   groceries(430,243,100,200);
+
+//    // calculating area of triangle  
+
+//   function calculatetriangle(b,h){
+//     var area = 0.5*b*h;
+//     console.log("The area of the traingle is",  area);
+//   }
+//   calculatetriangle(100,200);
+
+//     //  calculating the area of circle  
+
+//   function circle(r){
+//     var areaofcircle = 3.14*r*r;
+//     console.log("the area of circle is",areaofcircle );
+
+//   }
+//   circle(20);
+
+
+//     // calculating the area of the rectangle
+// //   function rectangle(l,w){
+//   var areaofrectangle = l*w;
+//   console.log("the area of rectangle is", areaofrectangle);
+
+//   }
+//   rectangle(100,200);
+
+  // working on operators using function
+  // function operators(a,b){
+  //   let add = a+b;
+  //   let sub = a-b;
+  //   let mul = a*b;
+  //   let dev = a/b;
+  //   let mod = a%b;
+  //   let inc = a--;
+  //   let dec = a++;
+  //   let dec2 = ++b;
+  //   console.log(add);
+  //   console.log(sub);
+  //   console.log(mul);
+  //   console.log(dev);
+  //   console.log(mod);
+  //   console.log(inc);
+  //   console.log(dec);
+  //   console.log(dec2);
+  
+  // operators(5,6);
+
+
+
+
+
+  //  worked on javascript conditions
+//   function done(l,g){
+//   if(l > g){
+//     console.log(l-g);
+//  }
+//   else{
+//     console.log(l+g);
+//   }
+//   }
+//   done(50,60);
+
+//   function water(a){
+  
+//     if(a){
+//       console.log("He will get a salary hike");
+//     }
+//     else{
+//       console.log("He will not get salary hike");
+//     }
+//   }
+//   let wind = 10;
+//   water(wind);
+
+//   let jk = 10;
+//   let mn = "10";
+//   console.log(jk == mn);
+//   console.log(jk === mn);
+
+//   let z = 10;
+//   let w = 10
+//   console.log(z+=w);
+//   console.log(z*=w);
+//   console.log(z-=w);
+
+//   let hs = "40";
+//   let mb = "45";
+//   console.log(hs == mb);
+//   console.log(hs === mb);
+
+
+// If marks are greater than or equal to 40, print "Pass", otherwise print "Fail".
+function congrats(marks,age){
+
+  if(marks >= 40){
+    console.log("You passed the exam");
+  }
+    else{
+      console.log("You failed the exam");
+    }
+    if(age >= 18){
+      console.log("He is eligible for voting in india");
+    }
+    else{
+      console.log("He is not eligible");
+    }
+  }
+  congrats(40,10);
+
+  // Take a number as input and check whether it is positive, negative, or zero.using else if condition
+function check(a){
+  if(a > 0  ){
+    console.log("the number is positive");
+  }
+  else if(a < 0){
+     console.log("the number is negative");
+  }
+  else {
+    console.log("the number is zero");
+  }
+  }
+  check(-10);
+  check(0);
+
+
+
+
+     // code for checking even or odd
+  function bottle(b){
+    if(b%2 == 0){
+      console.log("This number is even");
+    }
+      
+      else{
+        console.log("this is odd");
+      }
+
+    }
+    bottle(6);
+  
+
+    function big(a,b){
+      if(a >= b){
+        console.log("this is larger");
+
+      }
+      else if(b < a){
+        console.log("this is small");
+      }
+
+    }
+    big(30,20);
+
+
+  // using ternary operator for all the above condtions code
+  
+    function phone(m){
+        return m >= 40 ? "pass" : "fail"
+    }
+    console.log(phone(40));
+
+    function vote(ss){
+      return ss >= 18 ? "voting eligible" : "not eligible";
+    }
+    console.log(vote(100));
+
+    function hello(sp){
+       return sp%2==0 ? "even": "odd";
+    }
+    console.log(hello(20));
+
+
+    function good(s){
+      return s > 0  ? "positive" :  ( s < 0) ? "negative":  "zero";
+    }
+    console.log(good(0));
+
+
+
+    function bad(k,l){
+      return k >= l ? "bigger":  (k < l) ?  "smaller"
+    }
+    console.log(bad(20,10));
+  
+
+
+    
+    
+    
+
+
+
+
+    
