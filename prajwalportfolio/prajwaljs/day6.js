@@ -190,6 +190,46 @@ function Product(f,g){
 }
 Product(1,10)
 
+
+// Print all numbers divisible by 5 between 1 and 50. and sum using while loop
+function divisibleby5(d, e) {
+    let i=d;
+    let sum = 0;
+    while(i <= e) {
+        if (i % 5 == 0) {
+            sum += i;
+            console.log("it is divisible by 5:", i)
+        }
+        i++;
+    }
+    console.log("sum:",sum)
+}
+divisibleby5(1, 50)
+
+// Write a program that prints all even and odd numbers from 1 to N, and calculates the sum of the even numbers and the sum of the odd numbers. using while loop
+
+function oddeven(n) {
+    let i=1;
+    let sumodd = 0;
+    let sumeven = 0;
+
+    while(i <= n) {
+        if (i % 2 !== 0) {
+            sumodd += i;
+            console.log(i, "odd");
+        } else {
+            sumeven += i;
+            console.log(i, "even");
+        }
+        i++;
+    }
+
+    console.log("Sum of odd numbers:", sumodd);
+    console.log("Sum of even numbers:", sumeven);
+}
+
+oddeven(10);
+
  
 
 
