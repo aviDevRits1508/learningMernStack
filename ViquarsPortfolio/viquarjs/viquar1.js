@@ -156,8 +156,8 @@
 
 // 7oct
 // for loop
-// 1. Print 1 to 10
-// for (let i = 1; i <= 10; i++) {
+// 1. Print 1 to 11
+// for (let i = 1; i <= 11; i++) {
 //   console.log(i);
 // }
 
