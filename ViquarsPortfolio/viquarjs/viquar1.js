@@ -155,32 +155,67 @@
 
 
 // 7oct
-// 1 Print 1 to 10
+// for loop
+// 1. Print 1 to 10
 // for (let i = 1; i <= 10; i++) {
 //   console.log(i);
 // }
 
-// 6 Print 1 to N using while
-// let i = 1;
-// while (i <= 40) {
-//   console.log(i);
-//   i++;
-// }
 
-
-// 7 Sum of digits
-// let num = 1234;
+// 2.Sum of first 10 numbers
 // let sum = 0;
+// for (let i = 1; i <= 10; i++) {
+//   sum = sum + i;
+// }
+// console.log("Sum of first 10 numbers:", sum);
 
-// while (num > 0) {
-//   sum += num % 10;
-//   num = (num / 10);
+
+// 3.Print even numbers
+// for (let i = 1; i <= 10; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
 // }
 
-// console.log("Sum of digits:", sum);
+// 4.Print multiplication table
+// table for 5
+// for (let i=1; i<=10; i++){
+//   console.log("5 x" +i+"="+(5*i))
+
+// }
 
 
-// 8 Count digits in a number
+// 5.Print reverse numbers
+// for (let i = 10; i >= 1; i--) {
+//   console.log(i);
+// }
+
+// while loop
+// 6. Print 1 to N using while
+   // function print(n){
+   //    let i=1;
+   //    while(i<=n){
+   //       console.log(i);
+   //       i++;
+   //    }
+   // }
+   // print(9)
+
+
+// 7. Sum of digits
+//  function printsum(){
+//    let sum=0;
+//    let i=1;
+//    while (i<=5){
+//       sum=sum+i;
+//       i++
+//       }
+//       console.log(sum)
+//  }
+// printsum()
+
+
+// 8. Count digits in a number
 // let num = 98765;
 // let count = 0;
 // let temp = num;
@@ -196,3 +231,42 @@
 // }
 
 // console.log("Number of digits:", count);
+
+
+// 9.Reverse a number
+// let num = 123;
+// let rev = 0;
+
+// while (num > 0) {
+ 
+//   let digit = num;
+//   while (digit >= 10) {
+//     digit = digit - 10;
+//   }
+
+
+//   rev = rev * 10 + digit;
+
+  
+//   let divided = 0;
+//   while (num >= 10) {
+//     num = num - 10;
+//     divided++;
+//   }
+//   num = divided;
+// }
+
+// console.log(rev);
+
+
+// 10.Factorial using while loop
+// let num = 5;       // You can change this to any number
+// let fact = 1;
+// let i = 1;
+
+// while (i <= num) {
+//   fact = fact * i;
+//   i++;
+// }
+
+// console.log("Factorial:", fact);
