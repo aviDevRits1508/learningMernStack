@@ -474,15 +474,143 @@
     
     
          //  using the product of two digits
-         
+
         // let product = 4;
         // let i =1;
         // while(i<=10){
         //   i++;
         //   console.log("the product is", product*i);
         // }
+
+
+        // for (let i=0; i<=4; i++){
+        //   for(let j=0; j<=4; j++){
+        //      console.log(`${i}*${j}:${i*j}`);
+            
+        //   }
+        // }
+
+        // for (let i=1; i<=5; i++){
+        //    for(let j=2; j<5; j++){
+        //     console.log(i)
+        //    }
+        // }
          
+
+              //  let count = 5;
+              //  while (count > 0) {
+              //     console.log(count);
+              //   count--;
+              // }
+
+
+  // while loop questions
+  // printing 1 to N
+  // let i = 1;
+  // let n = 100;
+  // while(i<n){
+  //   console.log(i);
+  //   i++
+  // }
+
+  // sum of digits
+  // let first = 0;
+  // let p = 2;
+  // while(p<10){
+  //   first = first+p;
+    
+  //   p++
+  // }
+
+  // console.log("the sum is", first);
+
+      
+        //  finding a factorial number
+        // let kl = 2;
+        // let i = 1;
+        // while(i<=kl){
+        //   kl= i*kl;
+          
+        //   i++
+           
+        // }
+        //  console.log(kl)
+       
+      
+      
+  
+
+    // 
+    // printing 1 to 10 using for loop
+        //  for(let i=1; i<=10; i++){
+        //    console.log(i);
+        //  }
+
+
+
+
+        //  reversing 1 to 10 numbers
+   
+        //  for(let l=10; l>=1; l--){
+        //    console.log(l);
+        //  }
+
+        //  sum of first 10 numbers
+
+        // let sum = 0;
+      
+        // for(let p=1; p<=10; p++){
+        //   sum = sum+p;
+        // }
+        // console.log("the sum is", sum);
+
+
+        //  reversing even number
+        //       function rev(a){
+        //           for(let i=1; i<=a; i++){
+        //              if(i%2 == 0){  
+        //             console.log(i); 
+        //    }
+        //   }
+        // }
+        // rev(20)
+
+
+        // 5 tables using nested for loop
+          // for(let i=5; i<=5; i++){
+          //   for(let j=1; j<=10; j++){
+          //     console.log(`${i} *${j}: ${i*j}`)
+          //   }
+          // }
+    
+
+
+          //  counting a digit in the Number;
+          // let cat = 782398;
+          // let count = 0;
+          // while(cat>0){
+          //   cat= Math.floor(cat/10);
+          //   count++
+          // }
+          // console.log("the count is", count)
+
+
+          // let num = 678932;      
+          // let uturn = 0;
+          // while (num> 0) {
+          //    let digit = num % 10;                
+          //    uturn = uturn * 10 + digit;  
+          //    num = Math.floor(num/10);          
+             
+          // }
+          // console.log(uturn);
+
+
+          
+  
+      
         
+
 
 
 
