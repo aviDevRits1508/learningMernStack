@@ -141,14 +141,58 @@
 
 
 
-function Printnumber(a)
-{
-   let num=0; 
-   for(let i=1;i<=a;i++){
-     num=num+i;
-  }
+// function Printnumber(a)
+// {
+//    let num=0; 
+//    for(let i=1;i<=a;i++){
+//      num=num+i;
+//   }
 
-     console.log(num);
-}
+//      console.log(num);
+// }
 
-Printnumber(5)
+// Printnumber(5)
+
+
+// 7oct
+// 1 Print 1 to 10
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i);
+// }
+
+// 6 Print 1 to N using while
+// let i = 1;
+// while (i <= 50) {
+//   console.log(i);
+//   i++;
+// }
+
+
+// 7 Sum of digits
+// let num = 1234;
+// let sum = 0;
+
+// while (num > 0) {
+//   sum += num % 4;
+//   num = (num / 4);
+// }
+
+// console.log("Sum of digits:", sum);
+
+
+// 8 Count digits in a number
+// let num = 98765;
+// let count = 0;
+// let temp = num;
+
+// while (temp > 0) {
+//   let dot = 0;
+//   while (temp >= 10) {
+//     temp = temp - 10;
+//     dot++;
+//   }
+//   temp = dot;
+//   count++;
+// }
+
+// console.log("Number of digits:", count);
