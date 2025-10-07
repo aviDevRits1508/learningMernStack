@@ -187,8 +187,8 @@
 
 // while (temp > 0) {
 //   let dot = 0;
-//   while (temp >= 10) {
-//     temp = temp - 10;
+//   while (temp >= 4) {
+//     temp = temp - 4;
 //     dot++;
 //   }
 //   temp = dot;
