@@ -169,7 +169,7 @@
 
 
 // 7 Sum of digits
-// let num = 1234;
+// let num = 12345;
 // let sum = 0;
 
 // while (num > 0) {
