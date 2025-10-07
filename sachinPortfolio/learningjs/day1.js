@@ -229,6 +229,7 @@ function check(a){
       console.log("This number is even");
     }
       
+
       else{
         console.log("this is odd");
       }
@@ -275,14 +276,405 @@ function check(a){
 
 
 
-    function bad(k,l){
-      return k >= l ? "bigger":  (k < l) ?  "smaller"
-    }
-    console.log(bad(20,10));
+    // function bad(k,l){
+    //   return k >= l ? "bigger":  (k < l) ?  "smaller"
+    // }
+    // console.log(bad(20,10));
   
 
+//       else{
+//         console.log("this is odd");
+//       }
+
+//     }
+//     bottle(6);
+  
+
+//     function big(a,b){
+//       if(a >= b){
+//         console.log("this is larger");
+
+//       }
+//       else if(b < a){
+//         console.log("this is small");
+//       }
+
+//     }
+//     big(30,20);
+
+
+//   // using ternary operator for all the above condtions code
+  
+//     function phone(m){
+//         return m >= 40 ? "pass" : "fail"
+//     }
+//     console.log(phone(40));
+
+//     function vote(ss){
+//       return ss >= 18 ? "voting eligible" : "not eligible";
+//     }
+//     console.log(vote(100));
+
+//     function hello(sp){
+//        return sp%2==0 ? "even": "odd";
+//     }
+//     console.log(hello(20));
+
+
+//     function good(s){
+//       return s > 0  ? "positive" :  ( s < 0) ? "negative":  "zero";
+//     }
+//     console.log(good(0));
+
+
+
+//     function bad(k,l){
+//       return k >= l ? "bigger" :  (k < l) ?  "smaller": "nothing";
+//     }
+//     console.log(bad(20,10));
+   
+
+    //   function mul (i,j){
+    //    for(let i = 2; i <= 10; i++){
+      
+    //       for(let j = 2; j<= 10; j++){
+    //             console.log("The tables are",i*j);
+    //       }
+       
+    //    }
+    //   }
+    //  mul(2,2);
+
+      // without function
+      // for( let k=10; k >= 2; k--){
+      //   for( let l=10; l >= 1; l--)
+
+      //   {
+      //      console.log(k*l);
+      //   }
+      // }
+    // using two parametres
+    // 
+    // for 10 to 0
+    // for(let i=10; i >=0; i--){
+    //   console.log(i);
+    // }
+    
+    //  for(let i=x; i >=xx; i--){
+    //   console.log(i+1);
+    // }
+    //  function even(a){
+    //    for(let i=0; i <= ; i++){
+    //      console.log()
+    //    }
+    //  }
+
+//  function div(a){
+//   let sa = 0;
+//   for(let i = 1; i<=b; i++){
+//     sa+=1;
+//   }
+//   console.log(sa);
+//  }
+//  div(4);
+      //  printing reverse even numbers
+
+      // 
+        // reversing even number
+      // function rev(a){
+      //    for(let i=10; i>=a; i--){
+      //        if(i%2 == 0){  
+      //           console.log(i); 
+      //      }
+          
+          
+      //     }
+      //   }
+      //  rev(1);
+      // for revering odd number
+      //  function revodd(b){
+      //    for(let i=10; i>=b; i--){
+      //     if(i%2 != 0){
+      //       console.log(i);
+      //     }
+      //    }
+         
+      //  }
+      //  revodd(1);
+
+      //  1 to 10 devisible by 4 and sum
+      //   let add = 0;
+      // function first(k){
+      //   for(let i=1; i<=10; i++){
+      //     if(i%4 == 0){
+      //       console.log(i);
+      //       add = add+i;
+      //     }
+      //    else{
+      //    console.log("not divisible");
+      //  }
+      //   }
+      // }
+      // first(4);
+      // console.log(add);
+
+      // 1 to 50 divisible by 5 and sum of them
+      //   let second = 0;
+          //  let switch = 0;
+      //   function first(k){
+      //      for(let i=1; i<=50; i++){
+          
+      //     if(i%5 == 0){
+      //       second = second+i;
+      //        console.log(i);
+             
+      //      }
+      //      else{
+      //         console.log("not divisible");
+              
+
+      //    }
+              
+      //    }
+      
+      //  }
+      //  first(5);
+          // console.log( "this is the sum" , second);
+
+      // using while loop for reverse and sum for even number
+    //   
+    // let first = 0;
+    //   function pick(a){
+    //   let i=10;
+    //   while(i>=a){
+    //     i--;
+    //     if(i%2 == 0){
+    //       first = first+i;
+    //     console.log(i);
+    //     }
+    //   }
+    // }
+    //   pick(1);
+    //   console.log("this is the sum", first);
+
+
+
+
+
+       // using while loop for reverse and sum for odd number
+    //  
+               
+        //  let second = 0;
+    //   function pick(a){
+    //   let i=10;
+    //   while(i>=a){
+    //     i--;
+    //     if(i%2 != 0){
+    //       second = second+i;
+    //     console.log(i);
+    //     }
+    //   }
+    // }
+    //   pick(1);
+    //   console.log("this is the sum", second);
+
+
+
+
+
+
+    // 1 to 50 sum and devisible by 5
+
+    //   let third = 0;
+    //   function pick(a){
+    //   let i=1;
+    //   while(i<=50){
+    //     i++;
+    //     if(i%5 == 0){
+    //       third= third+i;
+    //     console.log(i);
+    //     }
+    //        else{
+    //       console.log("not devisible");
+    //        }
+    // //   }
+    // }
+    //   pick(1);
+    //   console.log("this is the sum", third);
+
+
+
+
+
+      //  1 to 4 sum and devisible by 4
+
+    //   let fourth = 0;
+    //   function pick(a){
+    //   let i=1;
+    //   while(i<=10){
+    //     i++;
+    //     if(i%4 == 0){
+    //       fourth= fourth+i;
+    //     console.log(i);
+    //     }
+    //     else{
+    //       console.log("not devisible");
+    //     }
+    //   }
+    // }
+    //   pick(1);
+    //   console.log("this is the sum", fourth)
+    // 
+    
 
     
+         //  using the product of two digits
+
+        // let product = 4;
+        // let i =1;
+        // while(i<=10){
+        //   i++;
+        //   console.log("the product is", product*i);
+        // }
+
+
+        // for (let i=0; i<=4; i++){
+        //   for(let j=0; j<=4; j++){
+        //      console.log(`${i}*${j}:${i*j}`);
+            
+        //   }
+        // }
+
+        // for (let i=1; i<=5; i++){
+        //    for(let j=2; j<5; j++){
+        //     console.log(i)
+        //    }
+        // }
+         
+
+              //  let count = 5;
+              //  while (count > 0) {
+              //     console.log(count);
+              //   count--;
+              // }
+
+
+  // while loop questions
+  // printing 1 to N
+  // let i = 1;
+  // let n = 100;
+  // while(i<n){
+  //   console.log(i);
+  //   i++
+  // }
+
+  // sum of digits
+  // let first = 0;
+  // let p = 2;
+  // while(p<10){
+  //   first = first+p;
+    
+  //   p++
+  // }
+
+  // console.log("the sum is", first);
+
+      
+        //  finding a factorial number
+        // let kl = 2;
+        // let i = 1;
+        // while(i<=kl){
+        //   kl= i*kl;
+          
+        //   i++
+           
+        // }
+        //  console.log(kl)
+       
+      
+      
+  
+
+    // 
+    // printing 1 to 10 using for loop
+        //  for(let i=1; i<=10; i++){
+        //    console.log(i);
+        //  }
+
+
+
+
+        //  reversing 1 to 10 numbers
+   
+        //  for(let l=10; l>=1; l--){
+        //    console.log(l);
+        //  }
+
+        //  sum of first 10 numbers
+
+        // let sum = 0;
+      
+        // for(let p=1; p<=10; p++){
+        //   sum = sum+p;
+        // }
+        // console.log("the sum is", sum);
+
+
+        //  reversing even number
+        //       function rev(a){
+        //           for(let i=1; i<=a; i++){
+        //              if(i%2 == 0){  
+        //             console.log(i); 
+        //    }
+        //   }
+        // }
+        // rev(20)
+
+
+        // 5 tables using nested for loop
+          // for(let i=5; i<=5; i++){
+          //   for(let j=1; j<=10; j++){
+          //     console.log(`${i} *${j}: ${i*j}`)
+          //   }
+          // }
+    
+
+
+          //  counting a digit in the Number;
+          // let cat = 782398;
+          // let count = 0;
+          // while(cat>0){
+          //   cat= Math.floor(cat/10);
+          //   count++
+          // }
+          // console.log("the count is", count)
+
+
+          // let num = 678932;      
+          // let uturn = 0;
+          // while (num> 0) {
+          //    let digit = num % 10;                
+          //    uturn = uturn * 10 + digit;  
+          //    num = Math.floor(num/10);          
+             
+          // }
+          // console.log(uturn);
+
+
+          
+  
+      
+        
+
+
+
+
+
+
+
+
+
+
     
     
 
