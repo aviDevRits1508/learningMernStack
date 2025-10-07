@@ -293,13 +293,13 @@
     //  mul(2,2);
 
       // without function
-      for( let k=10; k >= 2; k--){
-        for( let l=10; l >= 1; l--)
+      // for( let k=10; k >= 2; k--){
+      //   for( let l=10; l >= 1; l--)
 
-        {
-           console.log(k*l);
-        }
-      }
+      //   {
+      //      console.log(k*l);
+      //   }
+      // }
     // using two parametres
     // 
     // for 10 to 0
@@ -310,11 +310,182 @@
     //  for(let i=x; i >=xx; i--){
     //   console.log(i+1);
     // }
+    //  function even(a){
+    //    for(let i=0; i <= ; i++){
+    //      console.log()
+    //    }
+    //  }
 
+//  function div(a){
+//   let sa = 0;
+//   for(let i = 1; i<=b; i++){
+//     sa+=1;
+//   }
+//   console.log(sa);
+//  }
+//  div(4);
+      //  printing reverse even numbers
 
-    
+      // 
+        // reversing even number
+      // function rev(a){
+      //    for(let i=10; i>=a; i--){
+      //        if(i%2 == 0){  
+      //           console.log(i); 
+      //      }
+          
+          
+      //     }
+      //   }
+      //  rev(1);
+      // for revering odd number
+      //  function revodd(b){
+      //    for(let i=10; i>=b; i--){
+      //     if(i%2 != 0){
+      //       console.log(i);
+      //     }
+      //    }
+         
+      //  }
+      //  revodd(1);
 
+      //  1 to 10 devisible by 4 and sum
+      //   let add = 0;
+      // function first(k){
+      //   for(let i=1; i<=10; i++){
+      //     if(i%4 == 0){
+      //       console.log(i);
+      //       add = add+i;
+      //     }
+      //    else{
+      //    console.log("not divisible");
+      //  }
+      //   }
+      // }
+      // first(4);
+      // console.log(add);
+
+      // 1 to 50 divisible by 5 and sum of them
+      //   let second = 0;
+          //  let switch = 0;
+      //   function first(k){
+      //      for(let i=1; i<=50; i++){
+          
+      //     if(i%5 == 0){
+      //       second = second+i;
+      //        console.log(i);
+             
+      //      }
+      //      else{
+      //         console.log("not divisible");
+              
+
+      //    }
+              
+      //    }
       
+      //  }
+      //  first(5);
+          // console.log( "this is the sum" , second);
+
+      // using while loop for reverse and sum for even number
+    //   
+    // let first = 0;
+    //   function pick(a){
+    //   let i=10;
+    //   while(i>=a){
+    //     i--;
+    //     if(i%2 == 0){
+    //       first = first+i;
+    //     console.log(i);
+    //     }
+    //   }
+    // }
+    //   pick(1);
+    //   console.log("this is the sum", first);
+
+
+
+
+       // using while loop for reverse and sum for odd number
+    //  
+               
+        //  let second = 0;
+    //   function pick(a){
+    //   let i=10;
+    //   while(i>=a){
+    //     i--;
+    //     if(i%2 != 0){
+    //       second = second+i;
+    //     console.log(i);
+    //     }
+    //   }
+    // }
+    //   pick(1);
+    //   console.log("this is the sum", second);
+
+
+
+
+
+
+    // 1 to 50 sum and devisible by 5
+
+    //   let third = 0;
+    //   function pick(a){
+    //   let i=1;
+    //   while(i<=50){
+    //     i++;
+    //     if(i%5 == 0){
+    //       third= third+i;
+    //     console.log(i);
+    //     }
+    //        else{
+    //       console.log("not devisible");
+    //        }
+    // //   }
+    // }
+    //   pick(1);
+    //   console.log("this is the sum", third);
+
+
+
+
+
+      //  1 to 4 sum and devisible by 4
+
+    //   let fourth = 0;
+    //   function pick(a){
+    //   let i=1;
+    //   while(i<=10){
+    //     i++;
+    //     if(i%4 == 0){
+    //       fourth= fourth+i;
+    //     console.log(i);
+    //     }
+    //     else{
+    //       console.log("not devisible");
+    //     }
+    //   }
+    // }
+    //   pick(1);
+    //   console.log("this is the sum", fourth)
+    // 
+    
+    
+         //  using the product of two digits
+         
+        // let product = 4;
+        // let i =1;
+        // while(i<=10){
+        //   i++;
+        //   console.log("the product is", product*i);
+        // }
+         
+        
+
+
+
 
 
 

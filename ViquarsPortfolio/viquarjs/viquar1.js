@@ -162,7 +162,7 @@
 
 // 6 Print 1 to N using while
 // let i = 1;
-// while (i <= 50) {
+// while (i <= 40) {
 //   console.log(i);
 //   i++;
 // }
