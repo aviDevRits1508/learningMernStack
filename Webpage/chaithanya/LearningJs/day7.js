@@ -80,31 +80,31 @@
 //    reverse(10)
 
 // print all odd numbers between 1 to 20
-// function odd(a){
-//     let sum=0;
-//     i=1;
-//     while(i<=a){
-//         if(i%2!=0){
-//             sum=sum+i;
-//             console.log(sum);
-//         }
+function odd(a){
+    let sum=0;
+    i=1;
+    while(i<=a){
+        if(i%2!=0){
+            sum=sum+i;
+            console.log(sum);
+        }
 
-//             i++;
+            i++;
        
-//     }
-// }
-// odd(20)
+    }
+}
+odd(20)
 
 
 // print 1 to N numbers using while loop
-// function numbers(a){
-//     let i=1;
-//     while(i<=a){
-//         console.log(i);
-//         i++;
-//     }
-// }
-// numbers(20)
+function numbers(a){
+    let i=1;
+    while(i<=a){
+        console.log(i);
+        i++;
+    }
+}
+numbers(20)
 
 // Factorial of numbers using while loop
 function factorial(a){
@@ -117,4 +117,4 @@ function factorial(a){
 }
 
 }
-factorial(5);
+factorial(10);
