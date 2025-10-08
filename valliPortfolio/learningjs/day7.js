@@ -48,16 +48,15 @@
 //    }
 //    reverse(10)
  
-// Sum of digits
+// // Sum of digits
  
+//      let i=1;
+//     while(i<=5){
+//     console.log(i);
+//      i++;
+//     }
  
-    // let i=1;
-    // while(i<=5){
-    // console.log(i);
-    //  i++;
-    // }
- 
-//  Sum of first 5 numbers using while loop
+// //  Sum of first 5 numbers using while loop
 //     function sumofdigits(a){
 //         let sum=0;
 //         i=1;
@@ -68,7 +67,7 @@
 //         }
 //     }  
  
-// sumofdigits(20)
+// sumofdigits(5)
  
 // reverse numbers from 321 to 123
 // function reverse(a){
@@ -106,16 +105,17 @@
 // }
 // numbers(20)
  
-// Factorial of numbers using while loop
-function factorial(a){
-    let mul=1;
-    i=1;
-    while(i<=a){
-       mul=mul*i;
-       console.log(mul);
-       i++;
-}
+// // Factorial of numbers using while loop
+// function factorial(a){
+//     let mul=1;
+//     i=1;
+//     while(i<=a){
+//        mul=mul*i;
+//        console.log(mul);
+//        i++;
+// }
  
-}
-factorial(5);
+// }
+// factorial(5);
  
+
