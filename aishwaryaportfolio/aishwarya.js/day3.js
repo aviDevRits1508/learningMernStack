@@ -90,13 +90,15 @@ console.log(mark, "is", results);
 
 /*age check*/
  
-let age = 18
+function checkage(age){
 if(age>17){
     console.log("eligible for vote");
 }
 else{
     console.log("not eligible for vote");
 }
+}
+checkage(18);
 
 let girl = 17
 let voting = (girl>18) ? "eligible to vote" : "not eligible to vote";
