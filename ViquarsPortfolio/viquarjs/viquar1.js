@@ -205,31 +205,29 @@
 // 7. Sum of digits
 //  function printsum(){
 //    let sum=0;
-//    let i=1;
+//    let i=0;
 //    while (i<=5){
 //       sum=sum+i;
 //       i++
 //       }
 //       console.log(sum)
 //  }
-// printsum()
+// printsum(1234)
 
 
 // 8. Count digits in a number
 // let num = 98765;
 // let count = 0;
 // let temp = num;
-
 // while (temp > 0) {
 //   let dot = 0;
-//   while (temp >= 4) {
-//     temp = temp - 4;
+//   while (temp >= 10) {
+//     temp = temp - 10;
 //     dot++;
 //   }
 //   temp = dot;
 //   count++;
 // }
-
 // console.log("Number of digits:", count);
 
 
@@ -270,3 +268,60 @@
 // }
 
 // console.log("Factorial:", fact);
+
+
+
+// 8 oct
+// function sumofdigit(num){
+//    let sum= 0;
+//    while(num > 0){
+//        let lastdigit = num % 10;
+//       sum = sum + lastdigit;
+//       num = Math.floor(num / 10);
+//    }
+//    return sum
+// }
+// console.log(sumofdigit(1578))
+
+
+
+// for (let i = 1; i <= 1; i++) {
+//   console.log(i);
+// }
+
+
+for (let i= 1; i<=5;i++){
+let count = "";
+for(let j=1;j<=i;j++){
+   count+=j+'';
+}
+console.log(count);
+}
+
+
+// let i=1;
+// while(i<=5){
+//    let j=1;
+//    let count="";
+
+//    while(j<=i){
+//       count+=j+"";
+//       j++
+//    }
+
+//    console.log(count);
+//    i++;
+// }
+
+
+// for (let i=1;i<=5;i++){
+//    let count="";
+//    for(let j=1;j<=5;j++){
+//       if(j<=i){
+//          count+=j+'';
+//       }else{
+//          break; 
+//       }
+//    }
+//    console.log(count);
+// }
