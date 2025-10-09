@@ -58,8 +58,37 @@ inp(7)
 // Sum of digits
 // Take a number (e.g., 1234) and use a while loop to find the sum of its digits.
 
+
+
+function sumDigits(i){
+    let Dsum=0;
+    while(i>0){
+        let digit = i%10;
+        Dsum += digit;
+
+        console.log(i)
+        i = Math.floor(i/10)
+    }
+
+    console.log(Dsum)
+}
+
+console.log(sumDigits(123))
+
 // Count digits in a number
 // Use a while loop to count how many digits are in a number (e.g., 98765 → 5 digits).
+
+function countDigit(j){
+    let count=0;
+    while(j>0){
+       let digit = j%10;
+        j=Math.floor(j/10);
+        count++;
+    }
+    console.log(count);
+}
+
+console.log(countDigit(223366))
 
 // Reverse a number
 // Use a while loop to reverse a number (e.g., 123 → 321).
