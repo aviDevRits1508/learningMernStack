@@ -81,17 +81,45 @@ console.log(sumDigits(123))
 function countDigit(j){
     let count=0;
     while(j>0){
-       let digit = j%10;
+
         j=Math.floor(j/10);
         count++;
     }
     console.log(count);
 }
 
-console.log(countDigit(223366))
+console.log(countDigit(2211366))
 
 // Reverse a number
 // Use a while loop to reverse a number (e.g., 123 → 321).
 
+function reverse(k){
+    let digit1=0;
+
+    while(k>0){
+        let digit1 = k%10;
+        k=Math.floor(k/10)
+
+        console.log(digit1)
+    }  
+}
+
+console.log(reverse(1234));
+
+
 // Factorial using while loop
 // Take a number and find its factorial using a while loop.
+
+function factorial(l){
+    let fMul =1;
+    let lastDigit;
+    while(l>0){
+        lastDigit = l%10;
+        fMul *= lastDigit;
+
+        l = Math.floor(l/10);
+    }
+    console.log(fMul);
+}
+
+factorial(1233);
