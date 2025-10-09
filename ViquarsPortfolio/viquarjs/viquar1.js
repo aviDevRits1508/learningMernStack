@@ -148,9 +148,32 @@
 //    for(let i=1;i<=a;i++){
 //      num=num+i;
 //   }
+<<<<<<< HEAD
 
 //      console.log(num);
 // }
+=======
+
+//      console.log(num);
+// }
+
+// Printnumber(5)
+
+
+// 7oct
+// 1 Print 1 to 10
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i);
+// }
+
+// 6 Print 1 to N using while
+// let i = 1;
+// while (i <= 50) {
+//   console.log(i);
+//   i++;
+// }
+
+>>>>>>> 21fc310f86bce382eb3afb4ae7ac81f1e3e3ed21
 
 // Printnumber(5)
 
@@ -394,3 +417,42 @@
 // console.log(startsWithHello); 
 // console.log(endsWithScript);  
 
+// for (let i=1;i<=5;i++){
+//    let count="";
+//    for(let j=1;j<=5;j++){
+//       if(j<=i){
+//          count+=j+'';
+//       }else{
+//          break; 
+//       }
+//    }
+//    console.log(count);
+// }
+// 7 Sum of digits
+// let num = 1234;
+// let sum = 0;
+
+// while (num > 0) {
+//   sum += num % 4;
+//   num = (num / 4);
+// }
+
+// console.log("Sum of digits:", sum);
+
+
+// 8 Count digits in a number
+// let num = 98765;
+// let count = 0;
+// let temp = num;
+
+// while (temp > 0) {
+//   let dot = 0;
+//   while (temp >= 10) {
+//     temp = temp - 10;
+//     dot++;
+//   }
+//   temp = dot;
+//   count++;
+// }
+
+// console.log("Number of digits:", count);
