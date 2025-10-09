@@ -106,6 +106,52 @@
 //     console.log(e)
 //    }
 
+// for (let a = 1; a <= 5; a++) {
+//     let line = "";
+//     for (let b = 1; b <= a; b++) {
+//         line +=b +"";
+//     }
+//     console.log(line)
+// }
+
+
+// 1 2 3 4
+// 1 2 3
+// 1 2 
+// 1
+
+// for (let a = 4; a >= 1; a--) {
+//     let value = " ";
+
+//     for (let b = 1; b <= a; b++) {
+//         value +=b +"";
+//     }
+//     console.log(value);
+    
+// }
+
+// 5 5 5 5 5
+// 4 4 4 4 
+// 3 3 3
+// 2 2
+// 1
+
+// for (let c = 5; c >= 1; c--) {
+//     console.log(c)
+// }   
+
+// By the above code i got reverse 5 4 3 2 1 
+
+for (let c = 5; c >= 1; c--) {
+    let value = " ";
+
+    for (let d = 1; d <= c; d++) {
+        value +=c;
+    }
+    console.log(value)
+}
+
+
 
 
 
