@@ -605,9 +605,112 @@
           // }
           // console.log(uturn);
 
+             
+          // for(let i =1; i<=1; i++){
+          //   let first ="";
+          //   for(let j=1; j<=4; j++){
+          //       first = first+j
+                  // console.log(first)
+          //   }
+             
+          // }
 
           
+
+          
+                //  let rev = 12345;
+                //  for(let i =1; i<=4; i++){
+                //   store = Math.floor(rev/10)
+                //   console.log(store)
+                // }
+                  
   
+          //      for(let i =1; i<=1; i++){
+          //       let first ="";
+          //       for(let j=1; j<=5; j++){
+          //       first = first+j
+          //        console.log(first) 
+          //   }
+             
+          //  }
+
+
+          //  for(let i=5; i>=1; i--){
+          //   let second=""
+          //   for(let j=1; j<=i; j++)
+          //     second = second+i
+          //     console.log(second)
+          //  }
+              
+
+          //  for(let i=1; i<=5; i++){
+          //   let second=""
+          //   for(let j=1; j>=i; j++)
+          //     second = second+i
+          //     console.log(second)
+          //  }
+             
+
+          
+          // Checking for word in the sentence
+          //    let part = "this is sachin"
+          //    let word = "sachin"
+          //    function check(part,word){
+          //     let found = part.includes("sachin")
+          //       if(found){
+          //        console.log(true)
+          //       }
+          //        else{
+          //        console.log(false)
+          //   }
+          // }
+          // check(part,word)
+         
+
+
+          // let first = "hello world";
+          // let second = "JAVASCRIPT";   
+          // let find = "Hello World";
+          // let part = "Javascript";
+          // let eliminate = "This is sachin";
+          // let count = "html";
+          // let one = "Hello";
+          // let two = "World";
+          // let sa = "Hello Javascript";
+          
+          // function pos(find,part,eliminate,first,second,count,one,two,sa){
+          //  console.log(find.indexOf("World"))
+          //  console.log(part.slice(4))
+          //  console.log(eliminate.replace("sachin","Rohitsharma"))
+          //  console.log(first.toUpperCase())
+          //  console.log(second.toLowerCase())
+          //  console.log(count.length)
+          //  console.log(count.concat(" css"))
+          //  console.log(`${one} ${two}`)
+          //  console.log(sa.startsWith("Hello"))
+          //  console.log(sa.endsWith("script"))
+          // }
+          // pos(find,part,eliminate,first,second,count,one,two,sa);
+
+
+          
+          // let name ="Hello javascript";
+          // function check(name){
+          //   if(name.indexOf("Hello") == 0 && name.indexOf("script") == 10){
+          //     console.log("it is starting word and ending words")
+          //   }
+          //   else{
+          //     console.log("Neither start nor end words")
+          //   }
+          //  }
+          // check(name)
+          
+          
+
+         
+      
+     
+
       
         
 
