@@ -122,14 +122,78 @@ console.log("count number:",count1)
 
 // 1 2 3 4
 
-for(let i=1;i<=1;i++){
+for(let i=1;i<=4;i++){
     let row=" "
-    for(let j=1;j<=4;j++){
+    for(let j=1;j<=i;j++){
         row+=j+" "
-        console.log(row)
     }
+    console.log(row)
     
 }
+
+
+
+// count
+
+function counts(a){
+    let count=0;
+    while(a>0){
+        a=Math.floor(a/10)
+        count++;
+    }
+    console.log(count)
+}
+counts(1234)
+
+//  1 2 3 4
+//  1 2 3
+//  1 2
+// 1
+
+for (let i = 4; i >= 1; i--) {
+    let row = " "
+    for (let j = 1; j <= i; j++) {
+        row += j + " "
+    }
+    console.log(row)
+}
+
+
+// 5 5 5 5 5
+// 4 4 4 4 
+// 3 3 3
+// 2 2
+// 1
+
+function nested(a,b){
+    for(let i=a;i>=b;i--){
+       let row=""
+        for(let j=1;j<=i;j++){
+            row+=i+" "
+
+        }
+        console.log(row)
+    }
+
+}
+nested(5,1)
+
+// 1
+// 2 2
+// 3 3 3
+// 4 4 4 4
+// 5 5 5 5 5
+
+function nested1(a,b){
+    for(let i=a;i<=b;i++){
+        let row=""
+        for(let j=1;j<=i;j++){
+            row+=i;
+        }
+        console.log(row)
+    }
+}
+nested1(1,5)
 
 
  
