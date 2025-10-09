@@ -188,47 +188,100 @@
 
 
 // If marks are greater than or equal to 40, print "Pass", otherwise print "Fail".
-// function congrats(marks,age){
+function congrats(marks,age){
 
-//   if(marks >= 40){
-//     console.log("You passed the exam");
-//   }
-//     else{
-//       console.log("You failed the exam");
-//     }
-//     if(age >= 18){
-//       console.log("He is eligible for voting in india");
-//     }
-//     else{
-//       console.log("He is not eligible");
-//     }
-//   }
-//   congrats(40,10);
+  if(marks >= 40){
+    console.log("You passed the exam");
+  }
+    else{
+      console.log("You failed the exam");
+    }
+    if(age >= 18){
+      console.log("He is eligible for voting in india");
+    }
+    else{
+      console.log("He is not eligible");
+    }
+  }
+  congrats(40,10);
 
-//   // Take a number as input and check whether it is positive, negative, or zero.using else if condition
-// function check(a){
-//   if(a > 0  ){
-//     console.log("the number is positive");
-//   }
-//   else if(a < 0){
-//      console.log("the number is negative");
-//   }
-//   else {
-//     console.log("the number is zero");
-//   }
-//   }
-//   check(-10);
-//   check(0);
-
-
+  // Take a number as input and check whether it is positive, negative, or zero.using else if condition
+function check(a){
+  if(a > 0  ){
+    console.log("the number is positive");
+  }
+  else if(a < 0){
+     console.log("the number is negative");
+  }
+  else {
+    console.log("the number is zero");
+  }
+  }
+  check(-10);
+  check(0);
 
 
-//      // code for checking even or odd
-//   function bottle(b){
-//     if(b%2 == 0){
-//       console.log("This number is even");
-//     }
+
+
+     // code for checking even or odd
+  function bottle(b){
+    if(b%2 == 0){
+      console.log("This number is even");
+    }
       
+
+      else{
+        console.log("this is odd");
+      }
+
+    }
+    bottle(6);
+  
+
+    function big(a,b){
+      if(a >= b){
+        console.log("this is larger");
+
+      }
+      else if(b < a){
+        console.log("this is small");
+      }
+
+    }
+    big(30,20);
+
+
+  // using ternary operator for all the above condtions code
+  
+    function phone(m){
+        return m >= 40 ? "pass" : "fail"
+    }
+    console.log(phone(40));
+
+    function vote(ss){
+      return ss >= 18 ? "voting eligible" : "not eligible";
+    }
+    console.log(vote(100));
+
+    function hello(sp){
+       return sp%2==0 ? "even": "odd";
+    }
+    console.log(hello(20));
+
+
+    function good(s){
+      return s > 0  ? "positive" :  ( s < 0) ? "negative":  "zero";
+    }
+    console.log(good(0));
+
+
+
+    // function bad(k,l){
+    //   return k >= l ? "bigger":  (k < l) ?  "smaller"
+    // }
+    // console.log(bad(20,10));
+  
+
 //       else{
 //         console.log("this is odd");
 //       }
@@ -407,6 +460,7 @@
 
 
 
+
        // using while loop for reverse and sum for odd number
     //  
                
@@ -472,6 +526,7 @@
     //   console.log("this is the sum", fourth)
     // 
     
+
     
          //  using the product of two digits
 
