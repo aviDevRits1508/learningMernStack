@@ -663,9 +663,9 @@ function check(a){
              
           // for(let i =1; i<=1; i++){
           //   let first ="";
-          //   for(let j=1; j<=4; j++){
+          //   for(let j=1; j<=5; j++){
           //       first = first+j
-                  // console.log(first)
+          //         console.log(first)
           //   }
              
           // }
@@ -680,14 +680,7 @@ function check(a){
                 // }
                   
   
-          //      for(let i =1; i<=1; i++){
-          //       let first ="";
-          //       for(let j=1; j<=5; j++){
-          //       first = first+j
-          //        console.log(first) 
-          //   }
-             
-          //  }
+              
 
 
           //  for(let i=5; i>=1; i--){
@@ -760,13 +753,150 @@ function check(a){
           //  }
           // check(name)
           
-          
+
+          // for(let i =1; i<=4; i++){
+          //       let first ="";
+          //       for(let j=1; j<=4; j++){
+          //       first = first+j
+                 
+          //   }
+          //     console.log(first) 
+          //  }
+
+
+          // for(let i =1; i<=1; i++){
+          //       let first ="";
+          //       for(let j=1; j<=5; j++){
+          //       first = first+j
+          //         console.log(first) 
+          //   }
+             
+          //  }
+
+        //  for(let i=1; i<=2; i++){
+        //         third = ""
+        //         for(let j=10; j>=1; j--){
+        //         third = third+j  +""
+                 
+        //     }
+        //      console.log(third) 
+        //    }
 
          
-      
+          //    for(let i =1; i<=4; i++){
+          //       let fourth ="";
+          //       for(let j=1; j>=i; j--){
+          //         fourth= fourth+j
+                 
+          //   }
+          //     console.log(fourth) 
+          //  }
      
 
-      
+
+          // for(let i=1; i<=1; i++){
+          //   fifth="";
+          //   second = 0;
+          //   for(let k=1; k<=15; k++){
+            
+          //     fifth=fifth+k+1
+          //     console.log(fifth)
+          //     let = 
+          //   }
+         
+          // }
+
+           
+          // for(let i=1; i<=1; i++){
+          //     let kl = ""
+          //     for( let m=10; m>=1; m--){
+          //       kl = kl+m+" ";
+          //      console.log(kl) 
+          //     }
+              
+          // }
+        //    count =15;
+        //  for(b=1; b<=5; b++){
+        //   let ppm = ""
+        //   for(n=5; n<=b; n--){
+        //     ppm = ppm+count
+        //     count--;
+        //    console.log(ppm)
+        //   }
+          
+        //  }
+
+
+        // let i=1;
+        // while(i<=1){
+        //   i++
+        //   let kl = ""
+        //   for(j=1;j<=5;j++){
+        //     kl = kl+j+" "
+        //     console.log(kl)
+        //   }
+        // }
+
+        // let n=1;
+        // while(n<=5){
+        //   n++
+        //   let mn= ""
+        //   for(j=1;j<=5;j++){
+        //     mn= mn+j+" "
+           
+        //   }
+        //    console.log(mn)
+        // }
+
+        // let m=1;
+        // while(m<=5){
+        //   m++
+        //   let mn= ""
+        //   for(j=5;j>=m;j--){
+        //     mn= mn+j
+          
+        //   }
+        //   console.log(mn)
+        // }
+        //     
+        // }
+
+        //  let p=3;
+        // while(p<=8){
+          
+        //   let mn= ""
+        //   p++
+        //   for(j=10;j>=1;j--){
+        //     mn= mn+p
+          
+        //   }
+        //     console.log(mn)
+        // }
+
+       
+        //   let p=4;
+        // while(p>=1){
+          
+        //   let mn= ""
+        //   p--
+        //   for(j=1;j<=4;j++){
+        //     mn= mn+p+" "
+        
+        //   }
+        //    console.log(mn)   
+        // }
+
+
+        let m=5;
+        while(m>=1){
+          m--
+          let mn= ""
+          for(j=1;j<=m;j++){
+            mn= mn+j
+          
+          }
+          console.log(mn)
+        }
         
 
 
