@@ -1,107 +1,107 @@
 //nested for loop---a forloop inside that another for loop is called nested for loop------------------------
-// for(let i=0;i<3;i++){
-//     console.log(`outer`)     
-//     for (let j=0;j<3;j++)
-//         console.log(`inner`)
-// }
+for(let i=0;i<3;i++){
+    console.log(`outer`)     
+    for (let j=0;j<3;j++)
+        console.log(`inner`)
+}
 
 //-----------------------------------------------------------------------------------------------------
-// for(let i=0;i<=4;i++)
-// {
-//     let output=''
-//     for(let j=1;j<=5;j++){
-//         output+=j+''
-//     }
-//     console.log(output)
+for(let i=0;i<=4;i++)
+{
+    let output=''
+    for(let j=1;j<=5;j++){
+        output+=j+''
+    }
+    console.log(output)
 
-// }
+}
 //-------------------------------------------------------------------------------------------------------
-// for(let i=0;i<4;i++){
-//     let output=''
-//     for(j=1;j<5;j++){
-//         output+=j+''
-//         console.log(output)
-//     }
-//     console.log(output)
-// }
+for(let i=0;i<4;i++){
+    let output=''
+    for(j=1;j<5;j++){
+        output+=j+''
+        console.log(output)
+    }
+    console.log(output)
+}
 
 //-----------------------------------------------------------------------------------------------------
 //Write a for loop that prints numbers from 1 to 10.
 
-// for(i=0;i<=10;i++)
-//     console.log(i)
+for(i=0;i<=10;i++)
+    console.log(i)
 
-//Use a for loop to calculate and print the sum of numbers from 1 to 10.
-// function print(b){
-//     let num=0
-//     for(let i=0;i<=b;i++){
-//               num=num+i
+// Use a for loop to calculate and print the sum of numbers from 1 to 10.
+function print(b){
+    let num=0
+    for(let i=0;i<=b;i++){
+              num=num+i
 
-//     }
-//     console.log(num);
+    }
+    console.log(num);
 
-// }
-// print(10)
+}
+print(10)
 
-//even or odd
-// function evenodd(x){
-//     for(let i=0;i<x;i++){
-//         if(i%2==0){
-//             console.log(`even`,i);
-//     }
-//     else
-//     {
-//         console.log(`odd`,i);
-//     }
-// }
-// }
-// evenodd(20)
+// even or odd
+function evenodd(x){
+    for(let i=0;i<x;i++){
+        if(i%2==0){
+            console.log(`even`,i);
+    }
+    else
+    {
+        console.log(`odd`,i);
+    }
+}
+}
+evenodd(20)
 
-//Write a for loop to print numbers from 10 down to 1.
-// function revers(x){
-// for(let i=10;i>=0;i--){
-//     console.log(x*i)
-// }
+// Write a for loop to print numbers from 10 down to 1.
+function revers(x){
+for(let i=10;i>=0;i--){
+    console.log(x*i)
+}
 
-// }
-// revers(1)
+}
+revers(1)
 
 //Take a number from the user and print its multiplication table (e.g., table of 5).
-//  function five(num){
-//         num=0
-//         for(let i=1;i<=50;i++){
-//             if(i%5==0){
-//                 console.log(i)
-//                 num=num+i;
-//             }
+ function five(num){
+        num=0
+        for(let i=1;i<=50;i++){
+            if(i%5==0){
+                console.log(i)
+                num=num+i;
+            }
 
-//         }
-//         console.log(`total`,num)
-//     }
-//     five(50)
+        }
+        console.log(`total`,num)
+    }
+    five(50)
 
-    //Write a for loop to print numbers from 10 down to 1.
-    // function down(f)
-    // {
-    //     for(let i=0;i<=f;i--)
-    //     console.log(i)
+    // Write a for loop to print numbers from 10 down to 1.
+    function down(f)
+    {
+        for(let i=0;i<=f;i--)
+        console.log(i)
         
 
-    // }
-    // down(10)
+    }
+    down(10)
 
-    //-----------------while------------------------------------------------------------------------
-    //Take input N and print numbers from 1 to N using a while loop.
+    // -----------------while------------------------------------------------------------------------
+    // Take input N and print numbers from 1 to N using a while loop.
 
-// function number(num){
-//     let i=1;
-//     while(i<=num){
-//         console.log(i)
+function number(num){
+    let i=1;
+    while(i<=num){
+        console.log(i)
 
-//         i++
-//     }
-// }
-// number(20)
+        i++
+    }
+}
+number(20)
 
 
 
@@ -110,38 +110,38 @@
 console.log("hello")
 
 //factorial
-// function factorial(num){
-//     let result=1;
-//     let i=1;
-//     while(i<=num){
-//         result*=i;
-//         i++
-//     }
-//     console.log(result)
-// }
-// factorial(4)
+function factorial(num){
+    let result=1;
+    let i=1;
+    while(i<=num){
+        result*=i;
+        i++
+    }
+    console.log(result)
+}
+factorial(4)
 
 
 //Use a while loop to reverse a number (e.g., 123 → 321).
-// let num = 123;      // Number to reverse
-// let reversed = 0;
+let num = 123;     
+let reversed = 0;
  
-// while (num > 0) {
-//     let digit = num % 10;                
-//     reversed = reversed * 10 + digit;  
-//     num = Math.floor(num / 10);          
+while (num > 0) {
+    let digit = num % 10;                
+    reversed = reversed * 10 + digit;  
+    num = Math.floor(num / 10);          
  
-// console.log("Reversed number:", reversed);
-// }
+console.log("Reversed number:", reversed);
+}
 
 //Use a while loop to count how many digits are in a number (e.g., 98765 → 5 digits).
-// let num = 12345345;
-// let reversed =0;
-// while(num>0){
-//     num=Math.floor(num/10);
-//     reversed++;
-// }
-// console.log("reversed number",reversed)
+let num = 12345345;
+let reversed =0;
+while(num>0){
+    num=Math.floor(num/10);
+    reversed++;
+}
+console.log("reversed number",reversed)
 
 //-------------
 
