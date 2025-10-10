@@ -83,3 +83,135 @@ let namelength="avinash"
 let reverse=namelength.split("").reverse().join("")
 console.log(reverse)
 
+///////////////////////////////////////////////////////////////////////////////
+
+//12345
+//12345
+//12345
+//12345
+for (let i = 1; i <= 4; i++){
+  let output = " " ;
+  for (let j = 1; j <= 5; j++){
+    output = output + j + " ";
+  }
+  console.log(output)
+}
+
+//1
+//12
+//123
+//1234
+//12345
+for (let p = 1; p <= 5; p++){
+  let print = " " ;
+  for (let q = 1; q <= p; q++){
+    print= print + q + " ";
+  }
+  console.log(print)
+}
+
+// using while loop
+// let a = 1
+//  hello = " "
+// while (a<=5){
+//   hello = hello + a + " "
+//   a++
+//   console.log(hello)
+// }
+
+
+//10 9 8 7 6 5 4 3 2 1
+//10 9 8 7 6 5 4 3 2 1
+// for ( let a = 1; a <= 2; a++){
+//   let output1 = " " ;
+//   for (let b = 10; b >= 1; b--){
+//     output1 = output1 + b + " " ;
+//   }
+//   console.log(output1)
+// }
+
+//using while loop
+let e = 1
+ let f = 10
+  let reversed = " "
+while (e<=3){
+     e++
+  while(f>=1){
+   reversed = reversed + f + " "
+     f--
+  }
+ console.log(reversed)
+}
+
+
+ 
+
+//12345
+//1234
+//123
+//12
+//1
+for (let m =5; m >= 1; m--){
+  let answer = " " ;
+  for ( let n = 1; n <= m; n++){
+      answer = answer + n + " " ;
+  }
+       console.log(answer) 
+  }
+
+
+
+
+//1
+//23
+//456
+//78910
+//11 12 13 14 15
+let a=1;
+for (let x=1; x<=5; x++){
+  let solution= " " 
+  for (let y=1; y<=x; y++){
+    solution = solution + a + " "
+    a++
+  }
+   console.log(solution)
+
+  }
+
+  //10
+  //10 9
+  //10 9 8
+  //10 9 8 7
+  //10 9 8 7 6
+  //10 9 8 7 6 5
+  //10 9 8 7 6 5 4
+  //10 9 8 7 6 5 4 3
+  //10 9 8 7 6 5 4 3 2
+  //10 9 8 7 6 5 4 3 2 1
+
+for (let c = 1; c <=10; c++){
+  let out = " "
+  for( let d = 10; d >= c; d--){
+    out = out + d + " "
+   
+  }
+   console.log(out)
+}
+
+
+//15 14 13 12 11
+//10 9 8 7 
+//6 5 4 
+//3 2
+//1
+let count1 = 15;
+for (let s= 1; s<=5; s++){
+let value = " "
+for ( k= 5; k>=s; k-- ){
+    value = value + count1  + " "
+    count1--
+    
+}
+console.log(value)
+}
+
