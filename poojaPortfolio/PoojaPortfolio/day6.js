@@ -249,11 +249,12 @@ console.log(g.substring(1,6))
 
 
 let count = 0;
-  let it=0;
+  
 for(let i = 1; i <= 2; i++){
     for(let j = 1; j <= 2; j++){
         for(let k = 1; k <= 10; k++){  
            for(let l = 1; l <= 10; l++){
+              let it=0;
             while(it < 10){
                 count++
                 it++
