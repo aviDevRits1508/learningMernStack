@@ -291,6 +291,7 @@
   printnumber(10)
 
 
+
 //  -------sum of 10------
    function sumofnumbers(a){
     let num=0
@@ -300,6 +301,8 @@
     console.log("sum of first 10 numbers",num)
    }
    sumofnumbers(10)
+
+
 
 //   -----------print even numbers-------
  function evennumbers(a){
@@ -311,6 +314,7 @@
     }
     evennumbers(20)
 
+
  
 //    -----------multiplication table---------
    function multipletable(b){
@@ -320,6 +324,7 @@
       }
    }
    multipletable(10)
+
 
 
 //   --------------print reverse number---------
@@ -347,7 +352,7 @@
 
 
 //    ------sum of digits--------
-  function sumofnumbers(a){
+  function sumofdigits(a){
     let i=1;
     let num=0;
     while( i<=a){
@@ -356,7 +361,7 @@
     }
   console.log("sum",num)
   }
-sumofnumbers(10)
+sumofdigits(10)
 
 
 
@@ -371,6 +376,7 @@ sumofnumbers(10)
     console.log(j)
  }
  factorial(4)
+
 
 
 // --------count digit in a number------
@@ -400,3 +406,37 @@ console.log("reverse numbers",reverse)
 
 
 
+// for (let i = 1; i <= 1; i++){   
+//     let output = ""                 
+//     for (j=1; j<=4; j++){            
+//          output= output+j+""       
+//           console.log(output) 
+//     }  
+   
+// }
+
+
+// for( let i=4; i>=1; i--){
+//   let output="";
+//   for (let j=1; j<=4; j++){
+//     output= output+j+"";
+//   }
+//   console.log(output)
+// }
+
+
+for ( let i=5; i>=1; i--){
+  let num = "" ;
+  for ( let j=1; j<=i; j++){
+   num = num + i + "";
+  }
+ console.log(num)
+}
+
+for ( let i=1; i<=5; i++){
+  num = "" ;
+  for ( let j=1; j<=i; j++){
+    num = num + i +"";
+  }
+  console.log(num)
+}

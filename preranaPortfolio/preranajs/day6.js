@@ -128,14 +128,14 @@
 
 
 // table of 2
-// function table(num){
-//     let i=1;
-//     while(i<=10){
-//         console.log(i*2);
-//         i++;
-//     }
-// }
-// table(4)
+function table(num){
+    let i=1;
+    while(i<=10){
+        console.log(i*2);
+        i++;
+    }
+}
+table(4)
 
 // sum of all digits
 // function sum(N){
@@ -151,52 +151,52 @@
 // sum(10)
 
 // even numbers
-// function even(num){
-//     temp=0
-//     let i=1;
-//     while(i<=num){
-//         if(i%2==0){
-//             console.log(i);
-//             temp=temp+i
-//             }
-//         i++;
-//     }
-//     console.log("sum of all even num is",temp)
+function even(num){
+    temp=0
+    let i=1;
+    while(i<=num){
+        if(i%2==0){
+            console.log(i);
+            temp=temp+i
+            }
+        i++;
+    }
+    console.log("sum of all even num is",temp)
 
-// }
-// even(10)
+}
+even(10)
 
 // // odd numbers
-// function odd(num){
-//     temp=0
-//     let i=1;
-//     while(i<=num){
-//         if(i%2!=0){
-//             console.log(i);
-//             temp=temp+i
+function odd(num){
+    temp=0
+    let i=1;
+    while(i<=num){
+        if(i%2!=0){
+            console.log(i);
+            temp=temp+i
             
-//          }
-//          i++;
-//      }
-//      console.log("sum of all odd num is",temp)
+         }
+         i++;
+     }
+     console.log("sum of all odd num is",temp)
  
-//  }
-//  odd(10)
+ }
+ odd(10)
 
 // divisible by 5 and it's sum
-// function divisible(num){
-//     temp=0
-//     let i=1;
-//     while(i<=num){
-//         if(i%5==0){
-//             console.log(i)
-//             temp=temp+i
-//         }
-//         i++;
-//     }
-//     console.log(temp)
-// } 
-// divisible(35)        
+function divisible(num){
+    temp=0
+    let i=1;
+    while(i<=num){
+        if(i%5==0){
+            console.log(i)
+            temp=temp+i
+        }
+        i++;
+    }
+    console.log(temp)
+} 
+divisible(35)        
    
 
 // printing odd num in reverse and its sum
@@ -214,3 +214,29 @@ function reverse(a){
     console.log(temp)
 } 
 reverse(30)
+
+
+
+
+// // Reverse a number
+let num = 54321;      
+let reversed = 0;
+ 
+while (num > 0) {
+    let digit = num % 10;                
+    reversed = reversed * 10 + digit;  
+    num = Math.floor(num / 10);          
+ 
+}
+console.log("Reversed number:", reversed);
+
+// count the num of digits
+let num1 = 543210;
+let count=0;
+
+while(num1 > 0){
+    num1=Math.floor(num1 / 10);
+    count++;
+}
+console.log("count is :",count)
+
