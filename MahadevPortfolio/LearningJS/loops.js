@@ -140,19 +140,216 @@
 //     console.log(c)
 // }   
 
-// By the above code i got reverse 5 4 3 2 1 
-
-for (let c = 5; c >= 1; c--) {
-    let value = " ";
-
-    for (let d = 1; d <= c; d++) {
-        value +=c;
-    }
-    console.log(value)
-}
 
 
 
 
 
 
+
+
+// 10th Oct 2025 Problems
+
+// 1. print 
+// 1
+// 1 2
+// 1 2 3
+// 1 2 3 4
+// 1 2 3 4 5
+// for (let a = 1; a <= 5; a++){
+//     let row = ""
+//     for (let b = 1; b <= a; b++){
+//         row = row + b + " "
+//     }
+//     console.log(row);
+// }
+
+
+// 2. Print 
+// 1 2 3 4 5 
+// for (let c = 1; c <= 1; c++){
+//     let row = ""
+//     for (let d = 1; d <= 5; d++){
+//         row = row + d + " "
+//     }
+//     console.log(row);
+// }
+
+// 3. Print
+// 1 2 3 4
+// 1 2 3
+// 1 2 
+// 1
+// for (let e = 4; e >= 1; e--){
+//     let row = ""
+//     for (let f = 1; f <= e; f++){
+//         row = row + f + " "
+//     }
+//     console.log(row);
+// }
+
+// 4. Print
+// 5 5 5 5 5
+// 4 4 4 4 
+// 3 3 3
+// 2 2
+// 1
+// for (let g = 5; g >= 1; g--){
+//     let row = " "
+//     for (let h = 1; h <= g; h++){
+//         row = row + g + " "
+//     }
+//     console.log(row);
+// }
+
+// 5. Print
+// 1
+// 2 2
+// 3 3 3
+// 4 4 4 4
+// 5 5 5 5 5
+// for(let i = 1; i <= 5; i++){
+//     let row = ""
+//     for (let j = 1; j <= i; j++){
+//         row = row + i + " "
+//     }
+//     console.log(row);
+// }
+
+// 6. Print
+// 1 2 3 4
+// 1 2 3 4
+// 1 2 3 4
+// 1 2 3 4
+// for (let k = 1; k <= 4; k++){
+//     let row = " "
+//     for (let l = 1; l <= 4; l++){
+//         row = row + l + " "
+//     }
+//     console.log(row);
+// }
+
+// 7. Print
+// 10 9 8 7 6 5 4 3 2 1  ========> Not solving 
+
+// 8. Print
+// 10
+// 10 9
+// 10 9 8 
+// 10 9 8 7
+// 10 9 8 7 6......
+// for (let m = 10; m <= 1; m++){
+//     let row = ""
+//     for (let n = 1; n <= m; n++){
+//         row = row + n + " "
+//     }
+//     console.log(row);    ========> Not solving 
+// }  
+
+// 9. Print
+// 1
+// 2 3
+// 4 5 6
+// 7 8 9 10
+// 11 12 13 14 15
+// let num = 1;
+// for (let a = 1; a <= 5; a++){
+//     let row = ""
+//     for (let b = 1; b <=a; b++){
+//         row = row + num + " "
+//         num++
+//     }
+//     console.log(row);
+// }
+
+
+
+// 11111
+// for (let a = 1; a <= 1; a++){
+//     let row = ""
+//     for (let b = 1; b <=5; b++){
+//         row = row + "1 "
+//     }
+//     console.log(row);
+// }
+
+
+
+// 13th Oct 2025 Problems
+
+// Reverse pyramid
+// * * * * *
+// * * * *
+// * * *
+// * *
+// *
+// for (let a = 5; a >= 1; a--){
+//     let row = " ";
+//     for (let b = 1; b <= a; b++){
+//         row = row + "* "
+//     }
+//        console.log(row); 
+// }
+
+
+// Number pyramid
+//     1
+//    1 2
+//   1 2 3
+//  1 2 3 4
+// 1 2 3 4 5
+// for (let a = 1; a <= 5; a++){
+//     let row = " ";
+
+//     for (let b = 1; b <= a; b++){
+//         row = row + b + " ";
+//     }
+//     console.log(row);
+// }
+// for (let a = 1; a <= 5; a++) {
+//     let row = ""; // empty row
+
+//     // 1. spaces before numbers (to make pyramid shape)
+//     for (let s = 1; s <= 5 - a; s++) {
+//         row = row + " ";
+//     }
+
+//     // 2️. numbers from 1 to a
+//     for (let b = 1; b <= a; b++) {
+//         row = row + b + " ";
+//     }
+
+//     console.log(row);
+// }
+
+
+// Floyd’s Triangle
+// 1
+// 2 3
+// 4 5 6
+// 7 8 9 10
+// let sum = 1;
+// for (let a = 1; a <= 4; a++){
+//     let row = " ";
+//     for (let b = 1; b <= a; b++){
+//         row = row + sum + " ";
+//         sum++; 
+//     }
+//     console.log(row);
+// }
+
+
+// Inverted numbers
+// 5 4 3 2 1
+// 4 3 2 1
+// 3 2 1
+// 2 1
+// 1
+
+// for (let a = 5; a >= 1; a--){
+//     let row = " ";
+//     for (let b = a; b >= 1; b--){
+//         row = row + b  + " ";
+//     }
+//     console.log(row);
+// }
