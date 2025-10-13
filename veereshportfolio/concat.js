@@ -1,0 +1,134 @@
+// -----------------concatination------------------------------------------------------------------------
+
+revarse 4 times
+for(let i=1;i<=4;i++){
+    let row=" "
+
+    for(let j=10;j>=1;j--){
+        row += j+" "
+        
+    }
+    console.log(row)
+}
+
+function table(x){
+    for(let i=1;i<=x;i++){  
+        let row=" "
+
+        for(j=1;j<=10;j++){
+            row += j+" "
+        }
+        console.log(row)
+    }
+
+
+}
+table(4)
+
+-------------------------------------------------------------------------------------------------
+54321 downords
+for(let i=1;i<=5;i++){
+    let row ="";
+    for(let j=1;j<=i;j++){
+        row=row+j;
+    }
+    console.log(row)
+}
+
+
+12345 dornwords--------------------------------------------------------------------------------------
+for(let i=5;i>=1;i--){
+    let row = "";
+    for(j=1;j<=i;j++){
+        row=row+j+ " ";
+    }
+    console.log(row)
+}
+
+usig while loop
+let i=5;
+while(i>=1){
+    let row=" "
+
+    let j=1;
+    while(j<=i){
+        row=row+j+ " "
+        j++
+
+}
+        console.log(row)
+        i--
+}
+
+
+
+print top 10 to butoom10-1
+for (let i=10; i>=1; i--) {
+  let line = '';
+  for (let j=10; j>=i; j--) {
+    line+= j + ' '; 
+  }
+  console.log(line.trim()); 
+}
+
+
+
+
+let a = 15;
+
+for (let i =5; i>0; i--) {
+  let row = '';
+  for (let j=0; j<i; j++) {
+    row +=a + ' ';
+    a--;
+  }
+  console.log(row);
+}
+
+let a = 1;
+
+for (let i = 1; i <=5; i++) {
+  let row = '';
+  for (let j = 0; j <i; j++) {
+    row += a + ' ';
+    a++;
+  }
+  console.log(row);
+}
+
+count 1 to 15
+let count=1;
+let i=1;
+while(i<=5){
+    let row=""
+
+    let j=0;
+    while(j<i){
+        row += count+ ' ';
+        count++
+
+        j++;
+    }
+    console.log(row)
+    i++;
+}
+
+
+count  11 12 13 14 15 t0 1
+let coun=15;
+let k=5;
+while(k>0){
+    let row="";
+
+    let l=0;
+    while(l<k){
+        row=row +coun+" "
+        l++;
+        coun--;
+    }
+    console.log(row);
+        k--;
+    
+}
+
+ 
