@@ -832,31 +832,101 @@
         // }
 
 
-        let m=5;
-        while(m>=1){
-          m--
-          let mn= ""
-          for(j=1;j<=m;j++){
-            mn= mn+j
+        // let m=5;
+        // while(m>=1){
+        //   m--
+        //   let mn= ""
+        //   for(j=1;j<=m;j++){
+        //     mn= mn+j
           
-          }
-          console.log(mn)
-        }
+        //   }
+        //   console.log(mn)
+        // }
+
+//     let count = 0;
+//    
+// // for(let i = 1; i <= 2; i++){
+// //     for(let j = 1; j <= 2; j++){
+// //         for(let k = 1; k <= 10; k++){  
+// //            for(let l = 1; l <= 10; l++){
+// //             it=0
+// //             while(it < 10){
+// //                 count++
+// //                 it++
+            
+// //             }
+               
+// //            }
+// //         }
+// //     }
+// }
+
+//  console.log(count)
         
 
+      //  var hh = "sachin"
+      //  var ll = "ss"
+      //  console.log(hh+ "         ", ll)
+
+
+
+    //  var kk = "       How are you    "
+    // console.log(kk.trim())
+
+
+      //  ASCII Values of albhapbets
+    // let kk = "$#";
+    // console.log(kk.charCodeAt(1))
 
 
 
 
 
+      // worked on arrays and methods
+    // let city = ["Los angles", "bengaluru", "Hydrabad","Pune"];
+    // console.log(city)
+    
+    // let first = ["Los angles", "bengaluru", "Hydrabad","Pune"];
+    // first[0]="Chennai"
+    // first.push("New Delhi")
+    // first.pop("New Delhi")
+    // first.unshift("Mumbai")
+    // first.shift("Mumbai")
+   
+    // console.log( first.length)
+    // console.log("the index is ",  first.indexOf("bengaluru"))
+
+
+      // worked on objects
+      // let phone = {
+      //   ram : "16gb",
+      //   device:"Oneplus",
+      //   model:2021,
+      //   variant:"oneplus 8 pro"
+      // };
+      // phone.storage="256gb"
+      // console.log(phone.variant)
+      // phone.model=2022
+      // console.log(phone)
+      
+
+
+    
+    // let m = 1;
+    // while(m<=1){
+    //   m++
+    //   let phone = ""
+    //   n = 6
+    //   while(n>=m){
+       
+    //     phone =phone+n+" "
+    //     console.log(phone)
+    //      n--
+    //   }
+    // }
 
 
 
 
     
-    
-
-
-
-
     
