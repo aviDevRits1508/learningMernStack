@@ -947,39 +947,39 @@
     // sum(KK,NN)
 
 
-    let value = [1,2,3,4,5]
-    let sum = 0
-    for(let i = 0; i<value.length; i++){
-      sum =sum+value[i]
-    }
-    console.log(sum)
+    // let value = [1,2,3,4,5]
+    // let sum = 0
+    // for(let i = 0; i<value.length; i++){
+    //   sum =sum+value[i]
+    // }
+    // console.log(sum)
 
-    // reversing an array using reverese method
-    // let pp = [1,2,3,4,5,6]
-    // console.log(pp.reverse())
+    // // reversing an array using reverese method
+    // // let pp = [1,2,3,4,5,6]
+    // // console.log(pp.reverse())
 
-    // let k = [1,2,3,4,5,6]
-    // let b = 0
-    // let m =Math.floor(k/10)
-    // b = b+m
-    // console.log(k)
+    // // let k = [1,2,3,4,5,6]
+    // // let b = 0
+    // // let m =Math.floor(k/10)
+    // // b = b+m
+    // // console.log(k)
 
 
-    let kl = [2,3,4,5]
-    let max = kl[0]
-    for(let i =1; i<kl.length; i++){
-      if(kl[i]>=max){
-        max=kl[i]
-      }
-    }
-    console.log(max)
+    // let kl = [2,3,4,5]
+    // let max = kl[0]
+    // for(let i =1; i<kl.length; i++){
+    //   if(kl[i]>=max){
+    //     max=kl[i]
+    //   }
+    // }
+    // console.log(max)
 
-    let mm = [1,2,3,4,5,6]
-    let rev=[]
-    for(let i=mm.length-1; i>=0; i--){
-      rev[rev.length] = mm[i]
-    }
-    console.log(rev)
+    // let mm = [1,2,3,4,5,6]
+    // let rev=[]
+    // for(let i=mm.length-1; i>=0; i--){
+    //   rev[rev.length] = mm[i]
+    // }
+    // console.log(rev)
       
           
     
