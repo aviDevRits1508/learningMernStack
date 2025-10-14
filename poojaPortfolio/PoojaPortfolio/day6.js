@@ -130,21 +130,7 @@
 //   console.log(output1)
 // }
 
-//using while loop
-// let e = 1
-//  let f = 10
-//   let reversed = " "
-// while (e<=3){
-//      e++
-//   while(f>=1){
-//    reversed = reversed + f + " "
-//      f--
-//   }
-//  console.log(reversed)
-// }
 
-
- 
 
 //12345
 //1234
@@ -178,6 +164,8 @@
 
 //   }
 
+
+
   //10
   //10 9
   //10 9 8
@@ -193,10 +181,10 @@
 //   let out = " "
 //   for( let d = 10; d >= c; d--){
 //     out = out + d + " "
-   
 //   }
 //    console.log(out)
 // }
+
 
 
 //15 14 13 12 11
@@ -266,27 +254,154 @@ for(let i = 1; i <= 2; i++){
     }
 }
  console.log(count)
- 
 
+
+
+ 
+// /////////using while loop ///////////////////////////////////
 
 // 1
 // 1 2
 // 1 2 3
 // 1 2 3 4 
 // 1 2 3 4 5
-let i=1
-while (i<=1){
-   answer = " "
-  i++
-  let j=1
-  while (j<=5){
-    answer=answer+j+" "
-      j++
-      console.log(answer)
-  }
+// let i=1
+// while (i<=1){
+//    answer = " "
+//   i++
+//   let j=1
+//   while (j<=5){
+//     answer=answer+j+" "
+//       j++
+//       console.log(answer)
+//   }
   
+// }
+
+
+// 5 4 3 2 1
+// 5 4 3 2 
+// 5 4 3
+// 5 4 
+// 5
+// let i=0;
+// while(i<=5){
+//     i++
+//   let j=5;
+//   let object=" ";
+
+//   while(j>=i){
+//     object = object + j + " "
+//     j--;
+//   }
+//   console.log(object)
+// }
+
+
+// 10 9 8 7 6 5 4 3 2 1
+//10 9 8 7 6 5 4 3 2 1
+
+let e = 1
+ let f = 10
+  let reversed = " "
+while (e<=3){
+     e++
+  while(f>=1){
+   reversed = reversed + f + " "
+     f--
+  }
+ console.log(reversed)
 }
 
- 
 
+// 1 2 3 4
+// 1 2 3 4
+// 1 2 3 4
+// 1 2 3 4
+// let i=1
+// while(i<=4){
+//   i++
+//   let j=1
+//   output = " "
+//   while(j<=4){
+//     output = output + j + " "
+//    j++
+//   }
+//   console.log(output)
+// }
+
+// 1 2 3 4 5
+// 1 2 3 4
+// 1 2 3 
+// 1 2
+// 1
+// let m=5
+// while(m>=1){
+  
+//   let n=1
+//   let decrement=" "
+//   while(n<=m){
+//     decrement = decrement + n + " "
+//     n++
+//   }
+//   console.log(decrement)
+//    m-- 
+// }
+
+// 5 5 5 5 5
+// 4 4 4 4 
+// 3 3 3
+// 2 2
+// 1
+let k=5
+while(k>=1){
  
+  let l=1
+  value = " "
+  while(l<=k){
+    value = value + k + " "
+    l++
+  }
+ console.log(value)
+  k--
+}
+
+
+// 1
+// 22
+// 333
+// 4444
+// 55555
+let mm=1
+while(mm<=5){
+  
+  let nn = 1
+  clue = " "
+  while(nn<=mm){
+    clue = clue + mm + " "
+    nn++
+  }
+  console.log(clue)
+  mm++
+}
+
+
+//15 14 13 12 11
+//10 9 8 7 
+//6 5 4 
+//3 2
+//1
+// let ty=15
+// let m1=0
+// let n=5
+// while(m<=5){
+//   m++
+//   let row = " "
+//   while(n>=m){
+//    row = row + ty + " "
+//    n--
+//    ty--
+//   }
+//   console.log(row)
+  
+// }
