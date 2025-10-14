@@ -1,0 +1,53 @@
+
+.logo a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.logo1{
+    color: white;
+    text-align: center;
+    margin-top: 18rem;
+}
+.logo2{
+    border: 1px soild white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: blue;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    background: url("img/H&M.jpg");
+    height: 100vh;
+    object-fit: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav h1{
+       color: white;
+       font-size: 40px;
+}
+div h1{
+    font-size: 50px;
+    background-color: brown;
+    width: 30rem;
+    margin-left: 25rem;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin-right: 10px;
+}
+ul li i{
+    color: white;
+    font-size: 20px;
+}
