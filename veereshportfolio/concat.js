@@ -71,6 +71,36 @@
 //   console.log(line.trim()); 
 // }
 
+//by while loop
+// let k=10;
+// while(k>=1){
+//     let row=' ';
+
+//     let l=10;
+//     while(l>=k){
+//         row=row+l+' ';
+//         l--;
+
+//     }
+//     console.log(row.trim());
+//     k--;
+// }
+
+//10 t0 1 with same number--------------------------------------------------------------------------
+// let k=10;
+// while(k>=1){
+//     let row=' ';
+
+//     let l=10;
+//     while(l>=k){
+//         row=row+k+' ';
+//         l--;
+
+//     }
+//     console.log(row.trim());
+//     k--;
+// }
+
 
 
 
@@ -206,18 +236,18 @@
 
 
 
-let i=1;
-while(i<=5){
-    let row=" ";
+// let i=1;
+// while(i<=5){
+//     let row=" ";
 
-    let  j=5;
-    while(j>=i){
-        row=row+j;
-    j--
-    }
-    console.log(row)
-    i++
-}
+//     let  j=5;
+//     while(j>=i){
+//         row=row+j;
+//     j--
+//     }
+//     console.log(row)
+//     i++
+// }
 
 
 // let i=1;
@@ -230,4 +260,4 @@ while(i<=5){
 //     }
 //     console.log(k)  
 //     i++;
-// }
+//
