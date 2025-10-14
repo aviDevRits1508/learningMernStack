@@ -77,30 +77,38 @@
 // new1(1,5,5,5)
 
 
-function new1(a, b, c, d) {
-    for (let i = d; i >= b; i--) { 
-        console.log("-----------------");
-        for (let j = c; j >= a; j--) { 
-            console.log(`${i} x ${j} = ${i * j}`);
-        }
-    }
-}
-new1(1,5,5,5)
-new1(5,2,10,10)
+// function new1(a, b, c, d) {
+//     for (let i = d; i >= b; i--) { 
+//         console.log("-----------------");
+//         for (let j = c; j >= a; j--) { 
+//             console.log(`${i} x ${j} = ${i * j}`);
+//         }
+//     }
+// }
+// new1(1,5,5,5)
+// new1(5,2,10,10)
 
-// switch-case
-let day = 3;
+// // switch-case
+// let day = 3;
 
-switch (day) {
-  case 1:
-    console.log("Monday");
-    break;
-  case 2:
-    console.log("Tuesday");
-    break;
-  case 3:
-    console.log("Wednesday");
-    break;
-  default:
-    console.log("Another day");
-}
+// switch (day) {
+//   case 1:
+//     console.log("Monday");
+//     break;
+//   case 2:
+//     console.log("Tuesday");
+//     break;
+//   case 3:
+//     console.log("Wednesday");
+//     break;
+//   default:
+//     console.log("Another day");
+// }
+
+// function Table(num) {
+//     console.log(`Multiplication Table of ${num}:`);
+//     for (let i = 10; i >= 1; i--) {
+//         console.log(`${num} x ${i} = ${num * i}`);
+//     }
+// }
+// Table(7)
