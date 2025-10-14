@@ -980,6 +980,7 @@
     //   rev[rev.length] = mm[i]
     // }
     // console.log(rev)
+      let v = 0
       
           
     
