@@ -932,8 +932,11 @@ function check(a){
         // while(i<=1){
         //   i++
         //   let kl = ""
-        //   for(j=1;j<=5;j++){
+        //   j=1;
+        //   while(j<=5){
+           
         //     kl = kl+j+" "
+        //      j++
         //     console.log(kl)
         //   }
         // }
@@ -942,9 +945,10 @@ function check(a){
         // while(n<=5){
         //   n++
         //   let mn= ""
-        //   for(j=1;j<=5;j++){
+        //   j=1
+        //   while(j<=5){
         //     mn= mn+j+" "
-           
+        //     j++
         //   }
         //    console.log(mn)
         // }
@@ -953,35 +957,40 @@ function check(a){
         // while(m<=5){
         //   m++
         //   let mn= ""
-        //   for(j=5;j>=m;j--){
+        //   j=5
+        //   while(j>=m){
         //     mn= mn+j
-          
+        //     j--
         //   }
         //   console.log(mn)
         // }
-        //     
-        // }
+            
+        
 
-        //  let p=3;
+        // let p=3;
         // while(p<=8){
           
         //   let mn= ""
         //   p++
-        //   for(j=10;j>=1;j--){
+        //   j=10
+        //   while(j>=1){
         //     mn= mn+p
+        //     j--
           
         //   }
         //     console.log(mn)
         // }
 
        
-        //   let p=4;
+        // let p=4;
         // while(p>=1){
           
         //   let mn= ""
         //   p--
-        //   for(j=1;j<=4;j++){
+        //   j=1
+        //   while(j<=4){
         //     mn= mn+p+" "
+        //     j++
         
         //   }
         //    console.log(mn)   
@@ -992,8 +1001,10 @@ function check(a){
         // while(m>=1){
         //   m--
         //   let mn= ""
-        //   for(j=1;j<=m;j++){
+        //   j=1
+        //   while(j<=m){
         //     mn= mn+j
+        //     j++
           
         //   }
         //   console.log(mn)
@@ -1005,7 +1016,7 @@ function check(a){
 // //     for(let j = 1; j <= 2; j++){
 // //         for(let k = 1; k <= 10; k++){  
 // //            for(let l = 1; l <= 10; l++){
-// //             it=0
+// //              let it=0
 // //             while(it < 10){
 // //                 count++
 // //                 it++
@@ -1082,8 +1093,65 @@ function check(a){
     // }
 
 
+    
+    // let KK = [10,10,10]
+    // let NN = [2,3]
+    // function sum(KK,NN){
+    // console.log("The average is", (KK[0]+KK[1]+KK[2])/3)
+    // console.log("The item index  is", NN.indexOf(2))
+    //  }
+    // sum(KK,NN)
 
 
+    // let value = [1,2,3,4,5]
+    // let sum = 0
+    // for(let i = 0; i<value.length; i++){
+    //   sum =sum+value[i]
+    // }
+    // console.log(sum)
+
+    // // reversing an array using reverese method
+    // // let pp = [1,2,3,4,5,6]
+    // // console.log(pp.reverse())
+
+    // // let k = [1,2,3,4,5,6]
+    // // let b = 0
+    // // let m =Math.floor(k/10)
+    // // b = b+m
+    // // console.log(k)
+
+
+    // let kl = [2,3,4,5]
+    // let max = kl[0]
+    // for(let i =1; i<kl.length; i++){
+    //   if(kl[i]>=max){
+    //     max=kl[i]
+    //   }
+    // }
+    // console.log(max)
+
+    // let mm = [1,2,3,4,5,6]
+    // let rev=[]
+    // for(let i=mm.length-1; i>=0; i--){
+    //   rev[rev.length] = mm[i]
+    // }
+    // console.log(rev)
+
+      //  let kl = [2,3,4,5]
+    // let max = kl[0]
+    // for(let i =1; i<kl.length; i++){
+    //   if(kl[i]>=max){
+    //     max=kl[i]
+    //   }
+    // }
+    // console.log(max)
+    let m = 0
+    console.log(m)
+
+      
+      
+          
+    
 
     
     
