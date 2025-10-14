@@ -980,6 +980,16 @@
     //   rev[rev.length] = mm[i]
     // }
     // console.log(rev)
+
+      //  let kl = [2,3,4,5]
+    // let max = kl[0]
+    // for(let i =1; i<kl.length; i++){
+    //   if(kl[i]>=max){
+    //     max=kl[i]
+    //   }
+    // }
+    // console.log(max)
+
       
       
           
