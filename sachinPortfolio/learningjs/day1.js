@@ -314,10 +314,10 @@ function check(a){
 
 
 
-    function bad(k,l){
-      return k >= l ? "bigger":  (k < l) ?  "smaller"
-    }
-    console.log(bad(20,10));
+    // function bad(k,l){
+    //   return k >= l ? "bigger":  (k < l) ?  "smaller"
+    // }
+    // console.log(bad(20,10));
   
 
 
@@ -330,12 +330,12 @@ function check(a){
 
       
 
-      else{
-        console.log("this is odd");
-      }
+    //   else{
+    //     console.log("this is odd");
+    //   }
 
-    }
-    bottle(6);
+    // }
+    // bottle(6);
   
 
     function big(a,b){
