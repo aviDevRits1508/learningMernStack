@@ -196,4 +196,84 @@ function nested1(a,b){
 nested1(1,5)
 
 
+// --------------
+for(let i=5;i>=1;i--){
+    let row=" "
+    for(let j=1;j<=i;j++){
+        row+="* "
+    }
+    console.log(row)
+    
+}
+// --------------------------------
+// 1
+// 12
+// 123
+// 1234
+// 12345
+for(let i=0;i<=5;i++){
+    let row=""
+    for(let j=1;j<=i;j++){
+        row+=j;
+    }
+    console.log(row)
+}
+
+// 12345
+// 12345
+// 12345
+// 12345
+// 12345
+for(let i=0;i<5;i++){
+    let row=""
+    for(let j=1;j<=5;j++){
+        row+=j
+    }
+    console.log(row)
+}
+
+
+// 10 9 8 7 6 5 4 3 2 1
+// 10 9 8 7 6 5 4 3 2 1
+
+
+for(let i=1;i<=2;i++){
+    let row=""
+    for(let j=1;j<=10;j++){
+        row+=j;
+    }
+    console.log(row)
+}
+
+// 1 2 3 4 5
+// 1 2 3 4
+// 1 2 3 
+// 1 2
+// 1
+
+for(let i=5;i>=1;i--){
+    row=""
+    for(let j=1;j<=i;j++){
+        row+=j;
+    }
+    console.log(row)
+}
+
+// 1
+// 2 3
+// 4 5 6
+// 7 8 9 10
+// 11 12 13 14 15
+
+for(let i=1;i<=5;i++){
+    let row=""
+    for(let j=1;j<=i;j++){
+        row+=j;
+    }
+     console.log(row)
+}
+
+
+
+
  
