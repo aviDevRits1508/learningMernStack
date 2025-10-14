@@ -47,7 +47,7 @@ console.log(min)
 
 // Reverse an array (without using .reverse())    
 
-let x = [1,2,3,4,5]
+let x = [1,2,3,4,5,6]
 reverse=[]
 for(i=x.length-1; i>=0; i--){
     reverse[reverse.length]=x[i]
