@@ -70,3 +70,20 @@ let arr5 = [1,2,3,4,5];
 console.log(arr5.reverse())
 
 
+// let sum2=[1,2,3,4,5];
+// let sum3=[]  
+// let j=0;
+// for(let i=sum2.length-1;i>=0;i--){
+//      sum3[j]=sum2[i];
+//      j++
+// }
+// console.log(sum3);
+ 
+// let sum2=[1,2,3,4,5];
+// let sum3=[]  
+// let j=0;
+// for(let i=sum2.length-1;i>=0;i--){
+//      sum3[j]=sum2[i];
+//      j++
+// }
+// console.log(sum3);
