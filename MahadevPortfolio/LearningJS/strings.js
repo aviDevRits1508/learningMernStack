@@ -62,10 +62,10 @@ console.log(string4.endsWith("Script"));
 
 // 10. Reverse a String (using loop or methods)
 // Write a function that takes "Avinash" and returns "hsanivA".
-function reverseString(str) {
-    return str.split("").reverse().join("");
-}
+// function reverseString(str) {
+//     return str.split("").reverse().join("");
+// }
 
-let name = "Avinash";
-console.log(reverseString(name));
+// let name = "Avinash";
+// console.log(reverseString(name)); //Doubt  //Doubt  //Doubt  //Doubt  //Doubt 
 

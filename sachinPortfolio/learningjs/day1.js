@@ -220,6 +220,44 @@ function check(a){
   check(-10);
   check(0);
 
+// function congrats(marks,age){
+
+//   if(marks >= 40){
+//     console.log("You passed the exam");
+//   }
+//     else{
+//       console.log("You failed the exam");
+//     }
+//     if(age >= 18){
+//       console.log("He is eligible for voting in india");
+//     }
+//     else{
+//       console.log("He is not eligible");
+//     }
+//   }
+//   congrats(40,10);
+
+//   // Take a number as input and check whether it is positive, negative, or zero.using else if condition
+// function check(a){
+//   if(a > 0  ){
+//     console.log("the number is positive");
+//   }
+//   else if(a < 0){
+//      console.log("the number is negative");
+//   }
+//   else {
+//     console.log("the number is zero");
+//   }
+//   }
+//   check(-10);
+//   check(0);
+
+
+
+
+
+
+
 
 
 
@@ -228,6 +266,68 @@ function check(a){
     if(b%2 == 0){
       console.log("This number is even");
     }
+
+      
+      else{
+        console.log("this is odd");
+      }
+
+    }
+    bottle(6);
+  
+
+    function big(a,b){
+      if(a >= b){
+        console.log("this is larger");
+
+      }
+      else if(b < a){
+        console.log("this is small");
+      }
+
+    }
+    big(30,20);
+
+
+  // using ternary operator for all the above condtions code
+  
+    function phone(m){
+        return m >= 40 ? "pass" : "fail"
+    }
+    console.log(phone(40));
+
+    function vote(ss){
+      return ss >= 18 ? "voting eligible" : "not eligible";
+    }
+    console.log(vote(100));
+
+    function hello(sp){
+       return sp%2==0 ? "even": "odd";
+    }
+    console.log(hello(20));
+
+
+    function good(s){
+      return s > 0  ? "positive" :  ( s < 0) ? "negative":  "zero";
+    }
+    console.log(good(0));
+
+
+
+    function bad(k,l){
+      return k >= l ? "bigger":  (k < l) ?  "smaller"
+    }
+    console.log(bad(20,10));
+  
+
+
+
+//      // code for checking even or odd
+//   function bottle(b){
+//     if(b%2 == 0){
+//       console.log("This number is even");
+//     }
+
       
 
       else{
@@ -580,6 +680,7 @@ function check(a){
   // console.log("the sum is", first);
 
       
+
         //  finding a factorial number
         // let kl = 2;
         // let i = 1;
@@ -887,31 +988,102 @@ function check(a){
         // }
 
 
-        let m=5;
-        while(m>=1){
-          m--
-          let mn= ""
-          for(j=1;j<=m;j++){
-            mn= mn+j
+        // let m=5;
+        // while(m>=1){
+        //   m--
+        //   let mn= ""
+        //   for(j=1;j<=m;j++){
+        //     mn= mn+j
           
-          }
-          console.log(mn)
-        }
+        //   }
+        //   console.log(mn)
+        // }
+
+//     let count = 0;
+//    
+// // for(let i = 1; i <= 2; i++){
+// //     for(let j = 1; j <= 2; j++){
+// //         for(let k = 1; k <= 10; k++){  
+// //            for(let l = 1; l <= 10; l++){
+// //             it=0
+// //             while(it < 10){
+// //                 count++
+// //                 it++
+            
+// //             }
+               
+// //            }
+// //         }
+// //     }
+// }
+
+//  console.log(count)
         
 
+      //  var hh = "sachin"
+      //  var ll = "ss"
+      //  console.log(hh+ "         ", ll)
+
+
+
+    //  var kk = "       How are you    "
+    // console.log(kk.trim())
+
+
+      //  ASCII Values of albhapbets
+    // let kk = "$#";
+    // console.log(kk.charCodeAt(1))
 
 
 
 
+
+      // worked on arrays and methods
+    // let city = ["Los angles", "bengaluru", "Hydrabad","Pune"];
+    // console.log(city)
+    
+    // let first = ["Los angles", "bengaluru", "Hydrabad","Pune"];
+    // first[0]="Chennai"
+    // first.push("New Delhi")
+    // first.pop("New Delhi")
+    // first.unshift("Mumbai")
+    // first.shift("Mumbai")
+   
+    // console.log( first.length)
+    // console.log("the index is ",  first.indexOf("bengaluru"))
+
+
+      // worked on objects
+      // let phone = {
+      //   ram : "16gb",
+      //   device:"Oneplus",
+      //   model:2021,
+      //   variant:"oneplus 8 pro"
+      // };
+      // phone.storage="256gb"
+      // console.log(phone.variant)
+      // phone.model=2022
+      // console.log(phone)
+      
+
+
+    
+    // let m = 1;
+    // while(m<=1){
+    //   m++
+    //   let phone = ""
+    //   n = 6
+    //   while(n>=m){
+       
+    //     phone =phone+n+" "
+    //     console.log(phone)
+    //      n--
+    //   }
+    // }
 
 
 
 
 
     
-    
-
-
-
-
     

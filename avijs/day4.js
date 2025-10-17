@@ -76,16 +76,16 @@
 
 //terniry opreators
 
-let temp = 90
+// let temp = 90
 
-// let result = temp >= 102 ? "fever" : "not fever"
+// // let result = temp >= 102 ? "fever" : "not fever"
 
 
-function checkFever(temp){
-    return temp >= 102 ? "fever" : "not fever"
-}
+// function checkFever(temp){
+//     return temp >= 102 ? "fever" : "not fever"
+// }
 
-console.log(checkFever(temp))
+// console.log(checkFever(temp))
 
 
 
@@ -110,3 +110,99 @@ console.log(checkFever(temp))
 // 5. Age Check
 
 // If a person’s age is 18 or above, print "Eligible to vote", else print "Not eligible".
+
+
+// switch statement
+
+// let day = "sunday";
+
+// switch(day){
+//     case "sunday":
+//         console.log("holiday")
+//         // break;
+//     case "monday":
+//         console.log("working day")
+//         // break;
+//     default:
+//         console.log("invalid day")
+// }
+
+
+let z=4
+ 
+// function even(z){
+//     switch(z){
+//         case(z%2==0):
+//             console.log("even")
+//             break;
+//         case(z%2==1):
+//             console.log("odd")
+//             break;
+//         default:
+//             console.log("natural")  
+//     }
+// }
+// even(z)
+
+
+// let z = 3;
+
+// function even(z) {
+//     switch (true) {
+//         case (z % 2 === 0):
+//             console.log("even");
+//             break;
+//         case (z % 2 === 1):
+//             console.log("odd");
+//             break;
+//         default:
+//             console.log("natural");
+//     }
+// }
+// even(z);
+
+function oddeven(val){
+    if(val %2 == 0){
+        console.log("even")
+    }else if (val %2 == 1){
+        console.log("odd")
+    }else{
+        console.log("natural")
+    }
+}
+
+oddeven(z)
+
+
+
+// let grade = "f";
+// function gradeCalculation(grade){
+//     switch(grade){
+//         case "A":{
+//             let message = "excellent"
+//             console.log(message)
+//             break;
+//         }
+//         case "B":{
+//             let message = "good"
+//             console.log(message)
+//             break;
+//         }
+//         case "C":{
+//             let message = "average"
+//             console.log(message)
+//             break;
+//         }
+//         case "D":{
+//             let message = "poor"
+//             console.log(message)
+//             break;
+//         }
+//         default:
+//             let message = "invalid"
+//             console.log(message)
+//     }
+// }
+
+
+// gradeCalculation(grade)
