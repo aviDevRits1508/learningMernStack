@@ -47,10 +47,10 @@
 
 //keys
 
-let student = {
-    name: "valli",
-    class: "10"
-}
+// let student = {
+//     name: "valli",
+//     class: "10"
+// }
 
 // let keys = Object.keys(student)
 // console.log(keys)
