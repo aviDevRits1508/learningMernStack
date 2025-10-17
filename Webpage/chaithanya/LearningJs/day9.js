@@ -12,7 +12,7 @@
  
 //
 
-let number= [1,2,3,4,5];
+// let number= [1,2,3,4,5];
 // let ans=new Array(number.length);
 
 // function reversearray(arr,ans){
@@ -79,10 +79,62 @@ let number= [1,2,3,4,5];
 //  console.log(maxofarray(arr));
 
 // Reverse an array
-let arr=[1,2,3,4,5];
-let start=0;
-let end=arr.length-1;
+// let arr=[1,2,3,4,5];
+// let start=0;
+// let end=arr.length-1;
 
-function reversearray(arr){
-    
+// function reversearray(arr){
+
+// }
+
+
+// Average of an array
+// let arr1=[2,7,4,2,0,2,3];
+// let sum=0;
+
+// function averageofarray(aar1){
+//     for(let i=0;i<arr1.length;i++){
+//         sum=sum+arr1[i];
+//     }
+//        return sum;
+// } 
+
+// console.log(averageofarray(arr1));
+
+// Reverse an array
+// let arr=[1,2,3,4,5];
+// arr.reverse();
+// console.log(arr);
+
+// Reverse a String 
+// let str="Chaithanya";
+// console.log(str.split("").reverse().join(""));
+
+// let arr = [1, 2, 3, 4, 5];
+// let reversed = [];
+
+// for (let i = arr.length - 1; i >= 0; i--) {
+//   reversed.push(arr[i]);
+// }
+
+// console.log(reversed); // Output: [5, 4, 3, 2, 1]
+
+// Find the index of a given element
+function searcharray(arr, key) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === key) {
+            return i; // index found
+        }
+    }
+    return -1; // not found
 }
+
+// let result = searcharray(arr, key);
+// if (result !== -1) {
+//     console.log(`Element found at index ${result}`);
+// } else {
+//     console.log("Element not found");
+// }
+
+   
+
