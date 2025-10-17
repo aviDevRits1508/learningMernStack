@@ -188,37 +188,37 @@
 
 
 // If marks are greater than or equal to 40, print "Pass", otherwise print "Fail".
-function congrats(marks,age){
+// function congrats(marks,age){
 
-  if(marks >= 40){
-    console.log("You passed the exam");
-  }
-    else{
-      console.log("You failed the exam");
-    }
-    if(age >= 18){
-      console.log("He is eligible for voting in india");
-    }
-    else{
-      console.log("He is not eligible");
-    }
-  }
-  congrats(40,10);
+//   if(marks >= 40){
+//     console.log("You passed the exam");
+//   }
+//     else{
+//       console.log("You failed the exam");
+//     }
+//     if(age >= 18){
+//       console.log("He is eligible for voting in india");
+//     }
+//     else{
+//       console.log("He is not eligible");
+//     }
+//   }
+//   congrats(40,10);
 
   // Take a number as input and check whether it is positive, negative, or zero.using else if condition
-function check(a){
-  if(a > 0  ){
-    console.log("the number is positive");
-  }
-  else if(a < 0){
-     console.log("the number is negative");
-  }
-  else {
-    console.log("the number is zero");
-  }
-  }
-  check(-10);
-  check(0);
+// function check(a){
+//   if(a > 0  ){
+//     console.log("the number is positive");
+//   }
+//   else if(a < 0){
+//      console.log("the number is negative");
+//   }
+//   else {
+//     console.log("the number is zero");
+//   }
+//   }
+//   check(-10);
+//   check(0);
 
 // function congrats(marks,age){
 
@@ -314,10 +314,10 @@ function check(a){
 
 
 
-    function bad(k,l){
-      return k >= l ? "bigger":  (k < l) ?  "smaller"
-    }
-    console.log(bad(20,10));
+    // function bad(k,l){
+    //   return k >= l ? "bigger":  (k < l) ?  "smaller"
+    // }
+    // console.log(bad(20,10));
   
 
 
@@ -330,49 +330,49 @@ function check(a){
 
       
 
-      else{
-        console.log("this is odd");
-      }
+    //   else{
+    //     console.log("this is odd");
+    //   }
 
-    }
-    bottle(6);
+    // }
+    // bottle(6);
   
 
-    function big(a,b){
-      if(a >= b){
-        console.log("this is larger");
+    // function big(a,b){
+    //   if(a >= b){
+    //     console.log("this is larger");
 
-      }
-      else if(b < a){
-        console.log("this is small");
-      }
+    //   }
+    //   else if(b < a){
+    //     console.log("this is small");
+    //   }
 
-    }
-    big(30,20);
+    // }
+    // big(30,20);
 
 
   // using ternary operator for all the above condtions code
   
-    function phone(m){
-        return m >= 40 ? "pass" : "fail"
-    }
-    console.log(phone(40));
+    // function phone(m){
+    //     return m >= 40 ? "pass" : "fail"
+    // }
+    // console.log(phone(40));
 
-    function vote(ss){
-      return ss >= 18 ? "voting eligible" : "not eligible";
-    }
-    console.log(vote(100));
+    // function vote(ss){
+    //   return ss >= 18 ? "voting eligible" : "not eligible";
+    // }
+    // console.log(vote(100));
 
-    function hello(sp){
-       return sp%2==0 ? "even": "odd";
-    }
-    console.log(hello(20));
+    // function hello(sp){
+    //    return sp%2==0 ? "even": "odd";
+    // }
+    // console.log(hello(20));
 
 
-    function good(s){
-      return s > 0  ? "positive" :  ( s < 0) ? "negative":  "zero";
-    }
-    console.log(good(0));
+    // function good(s){
+    //   return s > 0  ? "positive" :  ( s < 0) ? "negative":  "zero";
+    // }
+    // console.log(good(0));
 
 
 
@@ -932,8 +932,11 @@ function check(a){
         // while(i<=1){
         //   i++
         //   let kl = ""
-        //   for(j=1;j<=5;j++){
+        //   j=1;
+        //   while(j<=5){
+           
         //     kl = kl+j+" "
+        //      j++
         //     console.log(kl)
         //   }
         // }
@@ -942,9 +945,10 @@ function check(a){
         // while(n<=5){
         //   n++
         //   let mn= ""
-        //   for(j=1;j<=5;j++){
+        //   j=1
+        //   while(j<=5){
         //     mn= mn+j+" "
-           
+        //     j++
         //   }
         //    console.log(mn)
         // }
@@ -953,35 +957,40 @@ function check(a){
         // while(m<=5){
         //   m++
         //   let mn= ""
-        //   for(j=5;j>=m;j--){
+        //   j=5
+        //   while(j>=m){
         //     mn= mn+j
-          
+        //     j--
         //   }
         //   console.log(mn)
         // }
-        //     
-        // }
+            
+        
 
-        //  let p=3;
+        // let p=3;
         // while(p<=8){
           
         //   let mn= ""
         //   p++
-        //   for(j=10;j>=1;j--){
+        //   j=10
+        //   while(j>=1){
         //     mn= mn+p
+        //     j--
           
         //   }
         //     console.log(mn)
         // }
 
        
-        //   let p=4;
+        // let p=4;
         // while(p>=1){
           
         //   let mn= ""
         //   p--
-        //   for(j=1;j<=4;j++){
+        //   j=1
+        //   while(j<=4){
         //     mn= mn+p+" "
+        //     j++
         
         //   }
         //    console.log(mn)   
@@ -992,8 +1001,10 @@ function check(a){
         // while(m>=1){
         //   m--
         //   let mn= ""
-        //   for(j=1;j<=m;j++){
+        //   j=1
+        //   while(j<=m){
         //     mn= mn+j
+        //     j++
           
         //   }
         //   console.log(mn)
@@ -1005,7 +1016,7 @@ function check(a){
 // //     for(let j = 1; j <= 2; j++){
 // //         for(let k = 1; k <= 10; k++){  
 // //            for(let l = 1; l <= 10; l++){
-// //             it=0
+// //              let it=0
 // //             while(it < 10){
 // //                 count++
 // //                 it++
@@ -1042,12 +1053,19 @@ function check(a){
     // let city = ["Los angles", "bengaluru", "Hydrabad","Pune"];
     // console.log(city)
     
-    // let first = ["Los angles", "bengaluru", "Hydrabad","Pune"];
-    // first[0]="Chennai"
-    // first.push("New Delhi")
-    // first.pop("New Delhi")
-    // first.unshift("Mumbai")
-    // first.shift("Mumbai")
+    let first = ["Los angles", "bengaluru", "Hydrabad","Pune"];
+    
+    console.log(first.push("New Delhi"))
+    
+    
+    
+
+    let devices1 = ["phone","telivision","laptop","bluetooh"]
+    let devices2 = ["cooler","car","bike"]
+    console.log(devices1.concat(devices2))
+
+
+
    
     // console.log( first.length)
     // console.log("the index is ",  first.indexOf("bengaluru"))
@@ -1082,8 +1100,63 @@ function check(a){
     // }
 
 
+    
+    // let KK = [10,10,10]
+    // let NN = [2,3]
+    // function sum(KK,NN){
+    // console.log("The average is", (KK[0]+KK[1]+KK[2])/3)
+    // console.log("The item index  is", NN.indexOf(2))
+    //  }
+    // sum(KK,NN)
 
 
+    // let value = [1,2,3,4,5]
+    // let sum = 0
+    // for(let i = 0; i<value.length; i++){
+    //   sum =sum+value[i]
+    // }
+    // console.log(sum)
+
+    // // reversing an array using reverese method
+    // // let pp = [1,2,3,4,5,6]
+    // // console.log(pp.reverse())
+
+    // // let k = [1,2,3,4,5,6]
+    // // let b = 0
+    // // let m =Math.floor(k/10)
+    // // b = b+m
+    // // console.log(k)
+
+
+    // let kl = [2,3,4,5]
+    // let max = kl[0]
+    // for(let i =1; i<kl.length; i++){
+    //   if(kl[i]>=max){
+    //     max=kl[i]
+    //   }
+    // }
+    // console.log(max)
+
+    // let mm = [1,2,3,4,5,6]
+    // let rev=[]
+    // for(let i=mm.length-1; i>=0; i--){
+    //   rev[rev.length] = mm[i]
+    // }
+    // console.log(rev)
+
+      //  let kl = [2,3,4,5]
+    // let max = kl[0]
+    // for(let i =1; i<kl.length; i++){
+    //   if(kl[i]>=max){
+    //     max=kl[i]
+    //   }
+    // }
+    // console.log(max)
+    
+      
+      
+          
+    
 
     
     
