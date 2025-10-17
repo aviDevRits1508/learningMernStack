@@ -205,6 +205,38 @@
 //   }
 //   congrats(40,10);
 
+  // Take a number as input and check whether it is positive, negative, or zero.using else if condition
+// function check(a){
+//   if(a > 0  ){
+//     console.log("the number is positive");
+//   }
+//   else if(a < 0){
+//      console.log("the number is negative");
+//   }
+//   else {
+//     console.log("the number is zero");
+//   }
+//   }
+//   check(-10);
+//   check(0);
+
+// function congrats(marks,age){
+
+//   if(marks >= 40){
+//     console.log("You passed the exam");
+//   }
+//     else{
+//       console.log("You failed the exam");
+//     }
+//     if(age >= 18){
+//       console.log("He is eligible for voting in india");
+//     }
+//     else{
+//       console.log("He is not eligible");
+//     }
+//   }
+//   congrats(40,10);
+
 //   // Take a number as input and check whether it is positive, negative, or zero.using else if condition
 // function check(a){
 //   if(a > 0  ){
@@ -223,12 +255,133 @@
 
 
 
+
+
+
+
+
+
+     // code for checking even or odd
+  function bottle(b){
+    if(b%2 == 0){
+      console.log("This number is even");
+    }
+
+      
+      else{
+        console.log("this is odd");
+      }
+
+    }
+    bottle(6);
+  
+
+    function big(a,b){
+      if(a >= b){
+        console.log("this is larger");
+
+      }
+      else if(b < a){
+        console.log("this is small");
+      }
+
+    }
+    big(30,20);
+
+
+  // using ternary operator for all the above condtions code
+  
+    function phone(m){
+        return m >= 40 ? "pass" : "fail"
+    }
+    console.log(phone(40));
+
+    function vote(ss){
+      return ss >= 18 ? "voting eligible" : "not eligible";
+    }
+    console.log(vote(100));
+
+    function hello(sp){
+       return sp%2==0 ? "even": "odd";
+    }
+    console.log(hello(20));
+
+
+    function good(s){
+      return s > 0  ? "positive" :  ( s < 0) ? "negative":  "zero";
+    }
+    console.log(good(0));
+
+
+
+    // function bad(k,l){
+    //   return k >= l ? "bigger":  (k < l) ?  "smaller"
+    // }
+    // console.log(bad(20,10));
+  
+
+
+
 //      // code for checking even or odd
 //   function bottle(b){
 //     if(b%2 == 0){
 //       console.log("This number is even");
 //     }
+
       
+
+    //   else{
+    //     console.log("this is odd");
+    //   }
+
+    // }
+    // bottle(6);
+  
+
+    // function big(a,b){
+    //   if(a >= b){
+    //     console.log("this is larger");
+
+    //   }
+    //   else if(b < a){
+    //     console.log("this is small");
+    //   }
+
+    // }
+    // big(30,20);
+
+
+  // using ternary operator for all the above condtions code
+  
+    // function phone(m){
+    //     return m >= 40 ? "pass" : "fail"
+    // }
+    // console.log(phone(40));
+
+    // function vote(ss){
+    //   return ss >= 18 ? "voting eligible" : "not eligible";
+    // }
+    // console.log(vote(100));
+
+    // function hello(sp){
+    //    return sp%2==0 ? "even": "odd";
+    // }
+    // console.log(hello(20));
+
+
+    // function good(s){
+    //   return s > 0  ? "positive" :  ( s < 0) ? "negative":  "zero";
+    // }
+    // console.log(good(0));
+
+
+
+    // function bad(k,l){
+    //   return k >= l ? "bigger":  (k < l) ?  "smaller"
+    // }
+    // console.log(bad(20,10));
+  
+
 //       else{
 //         console.log("this is odd");
 //       }
@@ -407,6 +560,7 @@
 
 
 
+
        // using while loop for reverse and sum for odd number
     //  
                
@@ -472,6 +626,7 @@
     //   console.log("this is the sum", fourth)
     // 
     
+
     
          //  using the product of two digits
 
@@ -525,6 +680,7 @@
   // console.log("the sum is", first);
 
       
+
         //  finding a factorial number
         // let kl = 2;
         // let i = 1;
@@ -605,25 +761,402 @@
           // }
           // console.log(uturn);
 
+             
+          // for(let i =1; i<=1; i++){
+          //   let first ="";
+          //   for(let j=1; j<=5; j++){
+          //       first = first+j
+          //         console.log(first)
+          //   }
+             
+          // }
 
           
+
+          
+                //  let rev = 12345;
+                //  for(let i =1; i<=4; i++){
+                //   store = Math.floor(rev/10)
+                //   console.log(store)
+                // }
+                  
   
-      
+              
+
+
+          //  for(let i=5; i>=1; i--){
+          //   let second=""
+          //   for(let j=1; j<=i; j++)
+          //     second = second+i
+          //     console.log(second)
+          //  }
+              
+
+          //  for(let i=1; i<=5; i++){
+          //   let second=""
+          //   for(let j=1; j>=i; j++)
+          //     second = second+i
+          //     console.log(second)
+          //  }
+             
+
+          
+          // Checking for word in the sentence
+          //    let part = "this is sachin"
+          //    let word = "sachin"
+          //    function check(part,word){
+          //     let found = part.includes("sachin")
+          //       if(found){
+          //        console.log(true)
+          //       }
+          //        else{
+          //        console.log(false)
+          //   }
+          // }
+          // check(part,word)
+         
+
+
+          // let first = "hello world";
+          // let second = "JAVASCRIPT";   
+          // let find = "Hello World";
+          // let part = "Javascript";
+          // let eliminate = "This is sachin";
+          // let count = "html";
+          // let one = "Hello";
+          // let two = "World";
+          // let sa = "Hello Javascript";
+          
+          // function pos(find,part,eliminate,first,second,count,one,two,sa){
+          //  console.log(find.indexOf("World"))
+          //  console.log(part.slice(4))
+          //  console.log(eliminate.replace("sachin","Rohitsharma"))
+          //  console.log(first.toUpperCase())
+          //  console.log(second.toLowerCase())
+          //  console.log(count.length)
+          //  console.log(count.concat(" css"))
+          //  console.log(`${one} ${two}`)
+          //  console.log(sa.startsWith("Hello"))
+          //  console.log(sa.endsWith("script"))
+          // }
+          // pos(find,part,eliminate,first,second,count,one,two,sa);
+
+
+          
+          // let name ="Hello javascript";
+          // function check(name){
+          //   if(name.indexOf("Hello") == 0 && name.indexOf("script") == 10){
+          //     console.log("it is starting word and ending words")
+          //   }
+          //   else{
+          //     console.log("Neither start nor end words")
+          //   }
+          //  }
+          // check(name)
+          
+
+          // for(let i =1; i<=4; i++){
+          //       let first ="";
+          //       for(let j=1; j<=4; j++){
+          //       first = first+j
+                 
+          //   }
+          //     console.log(first) 
+          //  }
+
+
+          // for(let i =1; i<=1; i++){
+          //       let first ="";
+          //       for(let j=1; j<=5; j++){
+          //       first = first+j
+          //         console.log(first) 
+          //   }
+             
+          //  }
+
+        //  for(let i=1; i<=2; i++){
+        //         third = ""
+        //         for(let j=10; j>=1; j--){
+        //         third = third+j  +""
+                 
+        //     }
+        //      console.log(third) 
+        //    }
+
+         
+          //    for(let i =1; i<=4; i++){
+          //       let fourth ="";
+          //       for(let j=1; j>=i; j--){
+          //         fourth= fourth+j
+                 
+          //   }
+          //     console.log(fourth) 
+          //  }
+     
+
+
+          // for(let i=1; i<=1; i++){
+          //   fifth="";
+          //   second = 0;
+          //   for(let k=1; k<=15; k++){
+            
+          //     fifth=fifth+k+1
+          //     console.log(fifth)
+          //     let = 
+          //   }
+         
+          // }
+
+           
+          // for(let i=1; i<=1; i++){
+          //     let kl = ""
+          //     for( let m=10; m>=1; m--){
+          //       kl = kl+m+" ";
+          //      console.log(kl) 
+          //     }
+              
+          // }
+        //    count =15;
+        //  for(b=1; b<=5; b++){
+        //   let ppm = ""
+        //   for(n=5; n<=b; n--){
+        //     ppm = ppm+count
+        //     count--;
+        //    console.log(ppm)
+        //   }
+          
+        //  }
+
+
+        // let i=1;
+        // while(i<=1){
+        //   i++
+        //   let kl = ""
+        //   j=1;
+        //   while(j<=5){
+           
+        //     kl = kl+j+" "
+        //      j++
+        //     console.log(kl)
+        //   }
+        // }
+
+        // let n=1;
+        // while(n<=5){
+        //   n++
+        //   let mn= ""
+        //   j=1
+        //   while(j<=5){
+        //     mn= mn+j+" "
+        //     j++
+        //   }
+        //    console.log(mn)
+        // }
+
+        // let m=1;
+        // while(m<=5){
+        //   m++
+        //   let mn= ""
+        //   j=5
+        //   while(j>=m){
+        //     mn= mn+j
+        //     j--
+        //   }
+        //   console.log(mn)
+        // }
+            
         
 
+        // let p=3;
+        // while(p<=8){
+          
+        //   let mn= ""
+        //   p++
+        //   j=10
+        //   while(j>=1){
+        //     mn= mn+p
+        //     j--
+          
+        //   }
+        //     console.log(mn)
+        // }
+
+       
+        // let p=4;
+        // while(p>=1){
+          
+        //   let mn= ""
+        //   p--
+        //   j=1
+        //   while(j<=4){
+        //     mn= mn+p+" "
+        //     j++
+        
+        //   }
+        //    console.log(mn)   
+        // }
+
+
+        // let m=5;
+        // while(m>=1){
+        //   m--
+        //   let mn= ""
+        //   j=1
+        //   while(j<=m){
+        //     mn= mn+j
+        //     j++
+          
+        //   }
+        //   console.log(mn)
+        // }
+
+//     let count = 0;
+//    
+// // for(let i = 1; i <= 2; i++){
+// //     for(let j = 1; j <= 2; j++){
+// //         for(let k = 1; k <= 10; k++){  
+// //            for(let l = 1; l <= 10; l++){
+// //              let it=0
+// //             while(it < 10){
+// //                 count++
+// //                 it++
+            
+// //             }
+               
+// //            }
+// //         }
+// //     }
+// }
+
+//  console.log(count)
+        
+
+      //  var hh = "sachin"
+      //  var ll = "ss"
+      //  console.log(hh+ "         ", ll)
+
+
+
+    //  var kk = "       How are you    "
+    // console.log(kk.trim())
+
+
+      //  ASCII Values of albhapbets
+    // let kk = "$#";
+    // console.log(kk.charCodeAt(1))
 
 
 
 
 
+      // worked on arrays and methods
+    // let city = ["Los angles", "bengaluru", "Hydrabad","Pune"];
+    // console.log(city)
+    
+    let first = ["Los angles", "bengaluru", "Hydrabad","Pune"];
+    
+    console.log(first.push("New Delhi"))
+    
+    
+    
+
+    let devices1 = ["phone","telivision","laptop","bluetooh"]
+    let devices2 = ["cooler","car","bike"]
+    console.log(devices1.concat(devices2))
 
 
+
+   
+    // console.log( first.length)
+    // console.log("the index is ",  first.indexOf("bengaluru"))
+
+
+      // worked on objects
+      // let phone = {
+      //   ram : "16gb",
+      //   device:"Oneplus",
+      //   model:2021,
+      //   variant:"oneplus 8 pro"
+      // };
+      // phone.storage="256gb"
+      // console.log(phone.variant)
+      // phone.model=2022
+      // console.log(phone)
+      
 
 
     
+    // let m = 1;
+    // while(m<=1){
+    //   m++
+    //   let phone = ""
+    //   n = 6
+    //   while(n>=m){
+       
+    //     phone =phone+n+" "
+    //     console.log(phone)
+    //      n--
+    //   }
+    // }
+
+
+    
+    // let KK = [10,10,10]
+    // let NN = [2,3]
+    // function sum(KK,NN){
+    // console.log("The average is", (KK[0]+KK[1]+KK[2])/3)
+    // console.log("The item index  is", NN.indexOf(2))
+    //  }
+    // sum(KK,NN)
+
+
+    // let value = [1,2,3,4,5]
+    // let sum = 0
+    // for(let i = 0; i<value.length; i++){
+    //   sum =sum+value[i]
+    // }
+    // console.log(sum)
+
+    // // reversing an array using reverese method
+    // // let pp = [1,2,3,4,5,6]
+    // // console.log(pp.reverse())
+
+    // // let k = [1,2,3,4,5,6]
+    // // let b = 0
+    // // let m =Math.floor(k/10)
+    // // b = b+m
+    // // console.log(k)
+
+
+    // let kl = [2,3,4,5]
+    // let max = kl[0]
+    // for(let i =1; i<kl.length; i++){
+    //   if(kl[i]>=max){
+    //     max=kl[i]
+    //   }
+    // }
+    // console.log(max)
+
+    // let mm = [1,2,3,4,5,6]
+    // let rev=[]
+    // for(let i=mm.length-1; i>=0; i--){
+    //   rev[rev.length] = mm[i]
+    // }
+    // console.log(rev)
+
+      //  let kl = [2,3,4,5]
+    // let max = kl[0]
+    // for(let i =1; i<kl.length; i++){
+    //   if(kl[i]>=max){
+    //     max=kl[i]
+    //   }
+    // }
+    // console.log(max)
+    
+      
+      
+          
     
 
-
-
-
+    
     
