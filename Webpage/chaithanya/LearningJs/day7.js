@@ -1,12 +1,12 @@
 // Print 1 to 10 using for loop
 
-// function printnumbers(a){
-//     for(let i=1;i<=a;i++){
-//         console.log(i);
-//     }
-// }
+function printnumbers(a){
+    for(let i=1;i<=a;i++){
+        console.log(i);
+    }
+}
 
-// printnumbers(10)
+printnumbers(10)
 
 // Print 10 to 1 uing for loop
 // function printnumbers(a){
@@ -80,19 +80,19 @@
 //    reverse(10)
 
 // print all odd numbers between 1 to 20
-function odd(a) {
-  // let sum=0;
-  i = 1;
-  while (i <= a) {
-    if (i % 2 != 0) {
-      // sum=sum+i;
-      console.log(i);
-    }
+// function odd(a) {
+//   // let sum=0;
+//   i = 1;
+//   while (i <= a) {
+//     if (i % 2 != 0) {
+//       // sum=sum+i;
+//       console.log(i);
+//     }
 
-    i++;
-  }
-}
-odd(20);
+//     i++;
+//   }
+// }
+// odd(20);
 
 
 // print 1 to N numbers using while loop
@@ -117,3 +117,6 @@ odd(20);
 
 // }
 // factorial(10);
+
+
+
