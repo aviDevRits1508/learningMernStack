@@ -85,4 +85,45 @@ compareArrays(A, B);
 // Write a JavaScript program to remove duplicate items from an array (ignore case sensitivity)
 // Find Duplicate Number
 // Remove Duplicates from Sorted Array
+
+
 // Second Largest Element
+function findSecondlargest(arr){
+  console.log(arr.sort((a, b) => b -a))
+  console.log(`the second largest number is ${arr[1]}`)
+
+}
+findSecondlargest([23,45,67,89,12,4])
+
+// remove duplicates
+// let arr = [1, 1, 2, 2, 3, 4, 4, 5];
+// let uniqueArr = [...new Set(arr)];
+// console.log(uniqueArr);
+
+let arr2 = [1,2,3,2,1,4,5,5,6,7,9];
+let dup = [];
+for (let i=0;i<arr2.length;i++){
+  if(arr2[i]!== arr2[i-1]){
+    dup.push(arr2[i])
+    
+  }
+}
+console.log(dup)
+
+
+// let a=["hello","param"];
+// let b=["param"];
+// console.log(b.indexOf(a[0]))
+// console.log(b.indexOf(3))
+// console.log(b.push(a[0]));
+// console.log(b)
+
+let arr3 = [1,2,3,2,1,4,5,5,6,7,9];
+let dup1 = [];
+for (let i=0;i<arr3.length;i++){
+  if(!dup1.includes(arr3[i])){
+    dup1.push(arr3[i]);
+    
+  } 
+}
+console.log(dup1)
