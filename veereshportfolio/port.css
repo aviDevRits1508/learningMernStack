@@ -40,6 +40,8 @@ color: white;
 .head_contaner span{
     color: brown;
 }
+
+
     .asl_flex{
         display: flex;
     }
@@ -53,6 +55,12 @@ color: white;
     .asl_contaner{
     margin-left: 41px;
     padding: 76px;    }
+
+    .asl_contaner h1{
+        margin-left: 1px;
+        text-decoration: #ff004f underline;
+    }
+
 
       .asl_drop ul{
         list-style: none;
@@ -71,6 +79,11 @@ color: white;
     .asl_contaner p{
         margin-top: 10px;
     }
+
+      .asl_drop span{
+        color: #ff004f;
+      }
+
    
 
     /* Services */
@@ -81,7 +94,8 @@ color: white;
     padding: 30px;
     gap: 68px;
     margin-top: 0px;
-        }
+}
+        
  
         .service1{
           background-color: #333131;
@@ -89,7 +103,7 @@ color: white;
     box-shadow: 1px 2px 5px;
     border-radius: 94px;   
     transition: transform(0.5s); 
-    }
+        }
 
     .service1:hover{
         box-shadow: 2px 3px 6px;
@@ -105,10 +119,13 @@ color: white;
         .services_main .wer{
                margin-left: 92px;
     margin-top: 68px;
-    padding: 51px  ;      }
+    padding: 51px  ;    
+    text-decoration: #ff004f underline;
+  }
+
+  
 
 
-       
 
        .services_flex{
         margin-top: 10px;
@@ -116,7 +133,8 @@ color: white;
 
  
 
-  /* what */
+  /* #portfolio
+ */
 
 #portfolio{
     padding: 70px 0;
@@ -133,6 +151,12 @@ color: white;
     transition: transform 0.5s;
 }
 
+.sub_title{
+    margin-left: 60px;
+    text-decoration: #ff004f underline;
+}
+
+
 .work img{
     width: 92%;
         border-radius: 10px;
@@ -140,7 +164,7 @@ color: white;
 }
 
 .layer{
-    width: 99%;
+    width: 99%; 
         height: 0%;
     background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
     border-radius: 10px;
@@ -157,12 +181,7 @@ color: white;
     transition: height 0.5s;
 
 }
-.layer a{
-    background-color: white;
-    padding: 15px;
-    border-radius: 30px;
-    color: #ff004f;
-}
+
 .work:hover img{
     transform: scale(1.1);
 
@@ -226,4 +245,95 @@ color: white;
 
     .process_class h1{
         margin-top: 25px;
+        text-decoration: #ff004f underline;
     }
+    /* contact */
+
+    .contact_flex{
+        display: grid;
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blank_name{
+  display: grid;
+
+        grid-template-columns: repeat(1, 1fr);    }
+
+        .blank_name{
+            margin-left: 105px;
+            margin-top: 53px;
+            gap: 30px;
+            border: none;
+        }
+        .blank_name input{
+            padding: 15px;
+            width: 400px;
+            border-radius: 10px;
+            border: none;
+            font-size: 20px;
+            border: underline;
+        }
+
+        .blank_name button{
+            padding: 15px;
+            width: 150px;
+            border-radius: 10px;
+            border: none;
+            font-size: 20px;
+            background-color: purple;
+            color: white;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+
+        .blank_name button:hover{
+            background-color: blue;
+        }
+
+        .address{
+      margin-top: 28px;
+    margin-left: 82px;
+    font-size: 23px;
+        }
+
+        .blank_content{
+margin-top: 74px;
+    font-size: 25px;
+    padding: 15px        }
+
+    .contact_content h2{
+    margin-top: 41px;
+    margin-left: 39px;
+    font-size: 33px;
+    text-decoration: #ff004f underline;
+
+    }
+
+    .contact_content p{
+    padding: 23px;
+    font-size: 23px;
+    }
+
+    .icon{
+   margin-left: 82px;
+    margin-top: 18px;
+    font-size: 34px;   }
+
+    .icon a{
+        color: white;
+    }
+    .icon a:hover{
+        color: #ff004f;
+    }
+
+    .contact_main{
+        background-color: black;
+        color: white;
+    }
+
+    
+
+         
+
+
+  
