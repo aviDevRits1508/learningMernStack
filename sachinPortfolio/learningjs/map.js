@@ -186,37 +186,186 @@
 
 
 // sum of all numbers
-let add = [1, 2, 3, 4]  
-let store = add.reduce((a,b)=>a+b)
-console.log("The sum  of array is",store)
+// let add = [1, 2, 3, 4]  
+// let store = add.reduce((a,b)=>a+b)
+// console.log("The sum  of array is",store)
 
 
-   // product of numbers
-let mul = [1, 2, 3, 4]
-let cross = mul.reduce((k,l)=>k*l)
-console.log("The product of number are",cross)
+//    // product of numbers
+// let mul = [1, 2, 3, 4]
+// let cross = mul.reduce((k,l)=>k*l)
+// console.log("The product of number are",cross)
 
-   //  for finding max
-let max1 = [3, 7, 2, 9, 4]
-let item =max1.reduce((p,t)=>Math.max(max1))
-console.log("The maximum item is", item)
-
-
-   //  for finding min
-let min1 = [3, 7, 2, 9, 4]
-let item2 =min1.reduce((n,z)=>Math.min(min1))
-console.log("The maximum item is", item2)
+//    //  for finding max
+// let max1 = [3, 7, 2, 9, 4]
+// let item =max1.reduce((p,t)=>Math.max(max1))
+// console.log("The maximum item is", item)
 
 
-
+//    //  for finding min
+// let min1 = [3, 7, 2, 9, 4]
+// let item2 =min1.reduce((n,z)=>Math.min(min1))
+// console.log("The maximum item is", item2)
 
 
 
+let students = [
+  {
+    name: "Avinash",
+    class: "10",
+    address: "Bangalore",
+    rollNumber: 1,
+    testMarks: 8,
+    result : "fail"
+
+  },
+  {
+    name: "Ramesh",
+    class: "10",
+    address: "Bangalore",
+    rollNumber: 2,
+    testMarks: 12,
+    result : "pass"
+  },
+  {
+    name: "Suresh",
+    class: "10",
+    address: "Bangalore",
+    rollNumber: 3,
+    testMarks: 9,
+    result : "fail"
+  },
+  {
+    name: "Mahesh",
+    class: "10",
+    address: "Bangalore",
+    rollNumber: 4,
+    testMarks: 15,
+    result : "fail"
+  },
+  {
+    name: "Lokesh",
+    class: "10",
+    address: "Bangalore",
+    rollNumber: 5,
+    testMarks: 7,
+    result : "fail"
+  }
+];
+
+      // printing the name of all students
+//  students.forEach((b) => {
+//   console.log(b.name);
+// })
+
+
+  
+// let aa = students.map((m)=>m.rollNumber)
+// console.log("The student roll number is", aa)
+
+
+// let bb = students.map((k)=>k.testMarks+5)
+// console.log("The students testmarks are incresed by 5", bb)
+
+
+let cc = students.reduce((a,b)=> a + b.testMarks ,1)
+console.log("the student total marks are",  cc)
+
+
+// let dd = students.reduce((avg,s)=>(avg + s.testMarks/students.length))
+// console.log("the student average marks are", dd)
+
+// let gg = students.map((p)=>`${p.name} ${p.result}`)
+// console.log("name and result is", gg)
+
+
+// let big = students.reduce((max, a) =>  a.testMarks > max ? a.testMarks : max, 0)
+//  console.log("Highest Marks are:", big);
+
+
+// let small = students.reduce((min, s) => s.testMarks < min ? s.testMarks : min,Infinity)
+// console.log("Lowest Marks are:", small);
+
+
+// // Avinash scored 8 marksRamesh scored 12 marksSuresh scored 9 marks 
+
+//    students.forEach((x)=>{
+//     console.log(`${x.name} scored ${x.testMarks} marks`)
+//    })
+
+
+   // couting how many passed and hom many failed
+   
+   let count = students.reduce((a,n)=>{
+      
+      if(n.testMarks>=10)
+          a.pass++;
+      
+      else if(n.testMarks<10)
+         a.fail++;
+       
+      
+     return a
+
+   },{pass:0,fail:0})
+
+   console.log("pass",count)
+   
 
 
 
 
 
+
+  let university = {
+  departments: [
+    {
+      name: "Computer Science",
+      courses: [
+        {
+          code: "CS101",
+          students: [
+            { name: "Amit", grades: [85, 90, 78] },
+            { name: "Sara", grades: [92, 88, 95] }
+          ]
+        },
+        {
+          code: "CS102",
+          students: [
+            { name: "John", grades: [70, 89, 80] },
+            { name: "Priya", grades: [88, 94, 91] }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Mathematics",
+      courses: [
+        {
+          code: "MA101",
+          students: [
+            { name: "Rahul", grades: [75, 85, 79] },
+            { name: "Neha", grades: [90, 92, 85] }
+          ]
+        }
+      ]
+    }
+  ]
+};
+
+      //  printing the student names 
+   // university.students.forEach((l)=>{
+   //   console.log("the all the students are", l.name)
+     
+   // })
+
+
+   //   printing course code in each department
+         // courses.forEach((f)=>{
+         // console.log(f.code)
+         // })
+
+  
 
 
 
