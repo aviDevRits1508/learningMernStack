@@ -321,13 +321,13 @@
 // tab(2)
 
 // revarse -------------------------------------------------------------------------------------------
-function revers(x){
-for(let i=0;i>=x;i--){
-    console.log(i)
-}
+// function revers(x){
+// for(let i=0;i>=x;i--){
+//     console.log(i)
+// }
 
-}
-revers(10)
+// }
+// revers(10)
 
 
 // // revarse table--------------------------------------------------------------------------------------
@@ -558,27 +558,27 @@ revers(10)
 //even odd number form 1 to n
 
 
-function oddeven(n) {
-    let i=1;
-    let sumodd = 0;
-    let sumeven = 0;
+// function oddeven(n) {
+//     let i=1;
+//     let sumodd = 0;
+//     let sumeven = 0;
 
-    while(i <= n) {
-        if (i % 2 !== 0) {
-            sumodd += i;
-            console.log(i, "odd");
-         } else {
-            sumeven += i;
-            console.log(i, "even");
-        }
-        i++;
-    }
+//     while(i <= n) {
+//         if (i % 2 !== 0) {
+//             sumodd += i;
+//             console.log(i, "odd");
+//          } else {
+//             sumeven += i;
+//             console.log(i, "even");
+//         }
+//         i++;
+//     }
 
-    console.log("Sum of odd numbers:", sumodd);
-    console.log("Sum of even numbers:", sumeven);
-}
+//     console.log("Sum of odd numbers:", sumodd);
+//     console.log("Sum of even numbers:", sumeven);
+// }
 
 
-oddeven(10);
+// oddeven(10);
 
 //----nested for loop( a "for loop" and inside that )
