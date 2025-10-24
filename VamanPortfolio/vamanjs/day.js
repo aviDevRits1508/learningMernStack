@@ -516,3 +516,17 @@
 
 
 
+
+// 24/10/2025
+
+
+// 1 Add Two Numbers.
+
+function add(a, b) {
+  return a + b;
+}
+
+console.log(add(7, 8));
+
+
+

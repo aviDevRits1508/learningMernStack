@@ -383,6 +383,7 @@ for (let op = 5; op >= 1; op--){
     console.log(row);
 }
 
+// 11.  Values of A to Z && a to z
 let z = "A"
 console.log("A".charCodeAt(0));
 
@@ -393,10 +394,7 @@ for (let i = 97; i <= 122; i++) {
   console.log(String.fromCharCode(i) + " = " + i);
 }
 
-
-
-
-
+// 
 
 
 

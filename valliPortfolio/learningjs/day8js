@@ -1,0 +1,80 @@
+// uppercase
+
+// let message="hello world";
+// let uppercasemessage=message.toUpperCase();
+// console.log(uppercasemess);
+
+// lowercase
+
+// let greet1="HELLOWORLD";
+// let lowercasemess1=greet1.toLowerCase();
+// console.log(lowercasegreet1);
+
+// find sentence
+
+// let str="Valli"
+// let wrd="Devi"
+// function check (str,wrd){
+//     if(str.includes(wrd)){
+//         console.log("true")
+//     }else{
+//         console.log("false")
+//     }
+       
+// }
+// console.log(check(str,wrd))
+
+// find position
+
+// let str1="i love music"
+// let wrd1="music"
+// console.log(str1.indexOf(wrd1))
+
+// extract substing
+
+// let str2="my name is valli"
+// let wrd2="my name is"
+// console.log(str2.substring(0,9));
+
+// replace word
+
+// let str3="Good Morning"
+// let wrd3= str3.replace("Sweet","dreams")
+// console.log(wrd3);
+
+// count string length
+
+// let str4="Hello everyone"
+// let length=str4.length
+// console.log(length)
+
+// combine to strings
+
+// let str5="Valli"
+// let wrd5="Devi"
+// console.log(str5,wrd5)
+
+// check start or end word
+
+// let str6="hello everyone"
+// console.log(str6.startsWith("hello"))
+// console.log(str6.endsWith("script"))
+
+// reverse a string 
+
+// let str7="Valli"
+// let reverse=str7.split("").reverse().join("")
+// console.log(reverse)
+
+
+// concat string
+
+// let sub="Valli"
+// let sub1="Chaithu"
+// let result=sub+" "+ sub1
+// console.log(result)
+
+// trim
+let sub2="        hello everyone"
+let result1=sub2.trim()
+console.log(result1)
