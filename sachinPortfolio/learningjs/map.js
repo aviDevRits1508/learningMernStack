@@ -209,49 +209,49 @@
 
 
 
-let students = [
-  {
-    name: "Avinash",
-    class: "10",
-    address: "Bangalore",
-    rollNumber: 1,
-    testMarks: 8,
-    result : "fail"
+// let students = [
+//   {
+//     name: "Avinash",
+//     class: "10",
+//     address: "Bangalore",
+//     rollNumber: 1,
+//     testMarks: 8,
+//     result : "fail"
 
-  },
-  {
-    name: "Ramesh",
-    class: "10",
-    address: "Bangalore",
-    rollNumber: 2,
-    testMarks: 12,
-    result : "pass"
-  },
-  {
-    name: "Suresh",
-    class: "10",
-    address: "Bangalore",
-    rollNumber: 3,
-    testMarks: 9,
-    result : "fail"
-  },
-  {
-    name: "Mahesh",
-    class: "10",
-    address: "Bangalore",
-    rollNumber: 4,
-    testMarks: 15,
-    result : "fail"
-  },
-  {
-    name: "Lokesh",
-    class: "10",
-    address: "Bangalore",
-    rollNumber: 5,
-    testMarks: 7,
-    result : "fail"
-  }
-];
+//   },
+//   {
+//     name: "Ramesh",
+//     class: "10",
+//     address: "Bangalore",
+//     rollNumber: 2,
+//     testMarks: 12,
+//     result : "pass"
+//   },
+//   {
+//     name: "Suresh",
+//     class: "10",
+//     address: "Bangalore",
+//     rollNumber: 3,
+//     testMarks: 9,
+//     result : "fail"
+//   },
+//   {
+//     name: "Mahesh",
+//     class: "10",
+//     address: "Bangalore",
+//     rollNumber: 4,
+//     testMarks: 15,
+//     result : "fail"
+//   },
+//   {
+//     name: "Lokesh",
+//     class: "10",
+//     address: "Bangalore",
+//     rollNumber: 5,
+//     testMarks: 7,
+//     result : "fail"
+//   }
+// ];
 
       // printing the name of all students
 //  students.forEach((b) => {
@@ -268,8 +268,8 @@ let students = [
 // console.log("The students testmarks are incresed by 5", bb)
 
 
-let cc = students.reduce((a,b)=> a + b.testMarks ,1)
-console.log("the student total marks are",  cc)
+// let cc = students.reduce((a,b)=> a + b.testMarks ,1)
+// console.log("the student total marks are",  cc)
 
 
 // let dd = students.reduce((avg,s)=>(avg + s.testMarks/students.length))
@@ -296,20 +296,20 @@ console.log("the student total marks are",  cc)
 
    // couting how many passed and hom many failed
    
-   let count = students.reduce((a,n)=>{
+//    let count = students.reduce((a,n)=>{
       
-      if(n.testMarks>=10)
-          a.pass++;
+//       if(n.testMarks>=10)
+//           a.pass++;
       
-      else if(n.testMarks<10)
-         a.fail++;
+//       else if(n.testMarks<10)
+//          a.fail++;
        
       
-     return a
+//      return a
 
-   },{pass:0,fail:0})
+//    },{pass:0,fail:0})
 
-   console.log("pass",count)
+//    console.log("pass",count)
    
 
 
@@ -317,59 +317,108 @@ console.log("the student total marks are",  cc)
 
 
 
-  let university = {
-  departments: [
-    {
-      name: "Computer Science",
-      courses: [
-        {
-          code: "CS101",
-          students: [
-            { name: "Amit", grades: [85, 90, 78] },
-            { name: "Sara", grades: [92, 88, 95] }
-          ]
-        },
-        {
-          code: "CS102",
-          students: [
-            { name: "John", grades: [70, 89, 80] },
-            { name: "Priya", grades: [88, 94, 91] }
-          ]
-        }
-      ]
-    },
-    {
-      name: "Mathematics",
-      courses: [
-        {
-          code: "MA101",
-          students: [
-            { name: "Rahul", grades: [75, 85, 79] },
-            { name: "Neha", grades: [90, 92, 85] }
-          ]
-        }
-      ]
-    }
-  ]
-};
+//   let university = {
+//   departments: [
+//     {
+//       name: "Computer Science",
+//       courses: [
+//         {
+//           code: "CS101",
+//           students: [
+//             { name: "Amit", grades: [85, 90, 78] },
+//             { name: "Sara", grades: [92, 88, 95] }
+//           ]
+//         },
+//         {
+//           code: "CS102",
+//           students: [
+//             { name: "John", grades: [70, 89, 80] },
+//             { name: "Priya", grades: [88, 94, 91] }
+//           ]
+//         }
+//       ]
+//     },
+//     {
+//       name: "Mathematics",
+//       courses: [
+//         {
+//           code: "MA101",
+//           students: [
+//             { name: "Rahul", grades: [75, 85, 79] },
+//             { name: "Neha", grades: [90, 92, 85] }
+//           ]
+//         }
+//       ]
+//     }
+//   ]
+// };
 
-      //  printing the student names 
-   // university.students.forEach((l)=>{
-   //   console.log("the all the students are", l.name)
+//       //  printing the student names 
+//    // university.students.forEach((l)=>{
+//    //   console.log("the all the students are", l.name)
      
-   // })
+//    // })
 
 
-   //   printing course code in each department
-         // courses.forEach((f)=>{
-         // console.log(f.code)
-         // })
+//    //   printing course code in each department
+//          // courses.forEach((f)=>{
+//          // console.log(f.code)
+//          // })
 
   
 
 
 
 
+    // used named function for greeting the messege used the concept of hoisting
+    let a = "Avinash"
+    greet(a)       
+    function greet(a){
+      console.log("Hello" +" " ,a)
+    }
+
+
+    // finding the squre of number using the function expression type
+     let square = function(m){
+      return m*m
+     }
+       console.log("The squre of the number is",square(8))
+
+
+    // finding the even numbers and odd numbers from an array using the arrow function
+    let k = [10,20,5,7,11,13,89,30]
+    let even =[]
+    let odd = []
+    let ss = k.filter((x)=>{
+          if(x%2==0){
+            even.push(x)
+          }
+          else{
+            odd.push(x)
+          }
+         })
+    console.log("The even are", even)
+    console.log("The odd are", odd)
+
+
+
+    // adding two numbers using the named function
+    function add(c,d){
+      return c+d
+    }
+    console.log("The addition of two numbers is", add(5,5))
+
+
+    // couting the number of in the given sentence using the function expression type
+      let l ="I am a mernstack developer"
+       let count = function(l){
+           let v = l.split(" ")
+            return v.length
+       }
+         console.log("the number of words are in the sentence are",count(l))
+         
+     
+    
 
 
 
@@ -413,15 +462,9 @@ console.log("the student total marks are",  cc)
 
 
 
-// const person = {
-//   name: "Ali",
-//   age: 25,
-//   address:{
-//     city:"pune",
-//     area:"samta nagar"
-//   }
-// };
-//   console.log(Object.keys(person))
+
+
+
 
 
 
