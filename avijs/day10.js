@@ -63,3 +63,7 @@ let student = [
 
 // console.log(sum(marks))
 
+
+
+
+
