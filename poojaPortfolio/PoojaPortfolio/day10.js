@@ -165,7 +165,7 @@ console.log("array containing only students roll numbers",rollnum)
 
 // Find the total marks of all students using reduce()
 let totalmarks=students.reduce((total,student) => total+student.testMarks, 0)
-console.log("total marks of all students", totalmarks)
+console.log("total marks of students", totalmarks)
 
 
 // Find the average marks of all students using reduce()
