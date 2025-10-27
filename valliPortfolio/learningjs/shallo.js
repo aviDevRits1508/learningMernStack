@@ -71,5 +71,9 @@ let student = {
 
 for(let key in student){
   console.log(`this is the ${key} of the student: ${student[key]}`)
+  if (studentkey = object)
+  {
+    
+  }
 }
 
