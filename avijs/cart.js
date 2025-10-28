@@ -58,19 +58,14 @@ function addToCart(productId, quantity){
 
 
 function removeProductFromCart(productId){
-    cart = cart.filter(p => p.id !== productId);
-}
-
-const calculateToatal = (cart) => {
-    // let total = 0;
-    // for(let i = 0; i < cart.length; i++){
-    //     let cartSum = cart[i].price * cart[i].quantity;
-    //     total += cartSum
-    // }
-    // return total;
-
-    return cart.reduce((total, i) => total + i.price * i.quantity, 0)
-
+    for(let i=0; i<cart.length; i++){
+        if(cart[i]==-1)
+          console.log("here item did not find to remove")
+    }
+        else{
+            
+        }
+        
 }
 
 
