@@ -58,7 +58,14 @@ function addToCart(productId, quantity){
 
 
 function removeProductFromCart(productId){
-    //implement
+    for(let i=0; i<cart.length; i++){
+        if(cart[i]==-1)
+          console.log("here item did not find to remove")
+    }
+        else{
+            
+        }
+        
 }
 
 
