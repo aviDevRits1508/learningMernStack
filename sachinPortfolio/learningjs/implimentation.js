@@ -69,5 +69,5 @@ function removeProductFromCart(productId){
 }
 removeProductFromCart(3)
 
-let price = cart.reduce((a,b)=>a+b.price*b.quantiy)
-console.log("the total sum is",price)
+let price1 = cart.reduce((a,b)=>a+b.price*b.quantiy)
+console.log("the total sum is",price1)
