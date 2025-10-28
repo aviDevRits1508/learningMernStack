@@ -1,10 +1,10 @@
 
 let product = [
-    {id: 1, name: 'Macbook', price: 1000},
-    {id: 2, name: 'Iphone', price: 800},
-    {id: 3, name: 'Ipad', price: 600},
-    {id: 4, name: 'Watch', price: 500},
-    {id: 5, name: 'Airpods', price: 300}
+    {id: 1, name: 'Macbook', price: 1000, stock: 5},
+    {id: 2, name: 'Iphone', price: 800, stock: 6},
+    {id: 3, name: 'Ipad', price: 600, stock: 0},
+    {id: 4, name: 'Watch', price: 500, stock: 0},
+    {id: 5, name: 'Airpods', price: 300, stock: 10}
 ]
 
 
@@ -58,10 +58,32 @@ function addToCart(productId, quantity){
 
 
 function removeProductFromCart(productId){
-    //implement
+    cart = cart.filter(p => p.id !== productId);
+}
+
+const calculateToatal = (cart) => {
+    // let total = 0;
+    // for(let i = 0; i < cart.length; i++){
+    //     let cartSum = cart[i].price * cart[i].quantity;
+    //     total += cartSum
+    // }
+    // return total;
+
+    return cart.reduce((total, i) => total + i.price * i.quantity, 0)
+
 }
 
 
 addToCart(3, 8);
 addToCart(1, 2);
+addToCart(5, 1)
 console.log(cart)
+
+
+console.log("after removing the product from the cart")
+
+removeProductFromCart(1);
+
+console.log(cart)
+
+console.log("total amount", calculateToatal(cart))
