@@ -1,10 +1,10 @@
 
 let product = [
-    {id: 1, name: 'Macbook', price: 1000, stock: 5},
-    {id: 2, name: 'Iphone', price: 800, stock: 6},
-    {id: 3, name: 'Ipad', price: 600, stock: 0},
-    {id: 4, name: 'Watch', price: 500, stock: 0},
-    {id: 5, name: 'Airpods', price: 300, stock: 10}
+    {id: 1, name: 'Macbook', price: 1000},
+    {id: 2, name: 'Iphone', price: 800},
+    {id: 3, name: 'Ipad', price: 600},
+    {id: 4, name: 'Watch', price: 500},
+    {id: 5, name: 'Airpods', price: 300}
 ]
 
 
@@ -57,28 +57,42 @@ function addToCart(productId, quantity){
 }
 
 
-function removeProductFromCart(productId){
-    for(let i=0; i<cart.length; i++){
-        if(cart[i]==-1)
-          console.log("here item did not find to remove")
-    }
-        else{
-            
-        }
-        
-}
-
 
 addToCart(3, 8);
 addToCart(1, 2);
-addToCart(5, 1)
 console.log(cart)
 
-
-console.log("after removing the product from the cart")
-
+function removeProductFromCart(productId){
+    let productFound = false;
+ 
+ 
+    if(cart.length === 0){
+        console.log('Cart is empty');
+        return;
+    }
+ 
+ 
+    if(cart[cart.length - 1].id === productId){
+        cart.pop();
+        productFound = true;
+        console.log('Last product removed from cart using pop');
+    }
+ 
+    if(!productFound){
+        console.log('Only the last product can be removed with pop or product not found');
+    }
+}
+ 
+addToCart(3, 8);
+addToCart(1, 2);
+console.log('Cart before removing:', cart);
+ 
 removeProductFromCart(1);
-
-console.log(cart)
-
-console.log("total amount", calculateToatal(cart))
+console.log('Cart after removing:', cart);
+ 
+removeProductFromCart(3);
+console.log('Cart final:', cart);
+ 
+ 
+ 
+ 
