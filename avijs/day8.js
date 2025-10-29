@@ -1,12 +1,12 @@
 //object
 
-// let student = {
-//     name: "avinash",
-//     age: 20,
-//     address: "bangalore"
-// }
+let student = {
+    name: "avinash",
+    age: 20,
+    address: "bangalore"
+}
 
-// console.log(student)
+console.log(student)
 
 // console.log(student.name)
 // console.log(student.age)
